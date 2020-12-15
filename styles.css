@@ -1,14 +1,18 @@
-<<<<<<< HEAD
-
-=======
 nav {
-  background-color: #dc3545;
+  background-color: #f72210;
 }
 
 button {
   font-family: "roboto Condensed", sans-serif;
   font-weight: bolder;
 }
->>>>>>> e3da28244c1e86530f5e8e6d209bb1683b376972
+
+.navbar-toggler-icon {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.fas {
+  color: rgba(255, 255, 255, 0.75);
+}
 
 /*# sourceMappingURL=styles.css.map */

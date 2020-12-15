@@ -1,4 +1,4 @@
-$primary-color: #dc3545;
+$primary-color: #f72210;
 $primary-font:  "roboto Condensed",sans-serif;
 $primary-weight: bolder;
 
@@ -10,3 +10,13 @@ button {
     font-family: $primary-font;
     font-weight: $primary-weight;
 }
+
+.navbar-toggler-icon {
+    color: rgba($color: #fff, $alpha: 0.75);
+}
+
+.fas {
+    color: rgba($color: #fff, $alpha: 0.75);
+
+}
+
