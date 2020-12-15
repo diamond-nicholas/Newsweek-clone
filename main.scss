@@ -30,6 +30,11 @@ nav {
   color: rgba($color: #fff, $alpha: 0.75);
 }
 
+.bi-list {
+  position: relative;
+  top: 15px;
+}
+
 .footer1 {
   @extend %footer-style;
 }

@@ -26,6 +26,11 @@ nav {
   color: rgba(255, 255, 255, 0.75);
 }
 
+.bi-list {
+  position: relative;
+  top: 15px;
+}
+
 .foot2 p {
   margin-top: 5px;
   margin-bottom: 5px;
