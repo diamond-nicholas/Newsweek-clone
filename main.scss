@@ -2,6 +2,12 @@ $page-color-red: #f72210;
 $sub-font: "Roboto Condensed",sans-serif;
 $sub-weight: bolder;
 $radius: 13%;
+%footer-style {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #666666;
+  margin-left: 10px;
+}
 
 nav {
   background-color: $page-color-red;
@@ -22,5 +28,19 @@ nav {
 
 .fas {
   color: rgba($color: #fff, $alpha: 0.75);
+}
+
+.footer1 {
+  @extend %footer-style;
+}
+
+.foot2 p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.social {
+  margin-top: -12px;
+  margin-bottom: -8px;
 }
 
