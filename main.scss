@@ -1,0 +1,12 @@
+$primary-color: #dc3545;
+$primary-font:  "roboto Condensed",sans-serif;
+$primary-weight: bolder;
+
+nav {
+    background-color: $primary-color;
+}
+
+button {
+    font-family: $primary-font;
+    font-weight: $primary-weight;
+}
