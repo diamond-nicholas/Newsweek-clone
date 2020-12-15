@@ -10,16 +10,8 @@ nav {
   height: 50px;
 }
 
-.btn {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: bolder;
-  background-color: #ffe400;
-  border-radius: 13%;
-  padding: 0 8px;
-  height: 20px;
-  width: 100px;
-  font-size: 13px;
-  text-align: center;
+.card {
+  margin-bottom: 1rem;
 }
 
 .fas {

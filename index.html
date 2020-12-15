@@ -1,626 +1,1006 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>newsweek-clone</title>
- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>newsweek-clone</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-   integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
+
 <body>
   <!-- navigation bar -->
-    <nav class="navbar navbar-expand navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
+  <nav class="navbar navbar-expand navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
         <a class="navbar-brand" href="#"><img src="./img/logo.jpg" alt="logo"></a>
-        </div>
-        <ul class="nav navbar-nav navbar-right">
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-user"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><button type="button" class="btn ">SUBSCRIBE></button></a>
-          </li>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="lightgray" class="bi bi-list" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-          </svg>
-        </ul>
       </div>
-    </nav>
-    <!-- container -->
-    <div class="container ">
-      <!-- cards -->
-      <div class="row">
-        <div class="col-12">
-          <div class="card">
-            <div class="card-header">
-              <div class="card-subtitle mb-2 text-muted">TOP STORY</div>
-            </div>
-            <img class="card-img-top"
-              src="https://d.newsweek.com/en/full/1686010/russias-putin-sitting-desk-flags.webp?w=591&amp;h=364&amp;f=6485dddec2e057b0c608ab539e0a63fc"
-              alt="world">
-            <div class="card-body">
-              <h4 class="card-title">Republicans, Democrats React as Bill Barr Resigns: 'A Five-Alarm Fire'</h4>
-              <p class="card-text">Senator Ted Cruz praised Barr as a "patriot" but other Republicans had criticism for
-                President
-                Trump.</p>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
-      <div class="container FEATURED">
-        <div class="row">
-        <div class="col-12">
-          <div class="card">
-            <div class="card-header">
-              <div class="card-subtitle mb-2 text-muted">FEATURED STORY</div>
-            </div>
-            <img class="card-img-top"
-              src="https://d.newsweek.com/en/full/1686025/attorney-general-william-barr-has-resigned.webp?w=397&amp;h=265&amp;q=90&amp;f=d2e4cb2821c66267073927b0066b3412"
-              alt="politics">
-            <div class="card-body">
-              <h4 class="card-title">Putin Congratulates Joe Biden on Winning U.S. Election</h4>
-              <p class="card-text">Russia's President Vladimir Putin was the only major world leader not to have
-                congratulated
-                President-elect Joe Biden,
-                but sent him a telegram after the electoral college confirmed his victory on Monday. </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12">
-          <div class="card">
-            <img class="card-img-top"
-              src="https://d.newsweek.com/en/full/1686095/trump-supporter-holding-qanon-flag.webp?w=397&h=265&q=90&f=18293d17659c13628ac48ae9dd2defcd"
-              alt="politics">
-            <div class="card-body">
-              <h4 class="card-title">Donald Trump Retweets Leading Figure in QAnon Conspiracy Theory</h4>
-              <p class="card-text">The QAnon online community has recently helped to spread unfounded allegations about Dominion voting machines.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12">
-          <div class="card">
-            <img class="card-img-top"
-              src="https://d.newsweek.com/en/full/1686071/stock-hacker-stealing-information.webp?w=397&h=265&q=90&f=8b2425f0b5b9bd891cf22dcc2abae7f1"
-              alt="tech & science">
-            <div class="card-body">
-              <h4 class="card-title">SolarWinds Hack Exposed After FireEye Cybersecurity Firm Found 'Backdoor'</h4>
-              <p class="card-text">The cyberattack seemingly went undetected for months as hackers were able to sneak into various U.S. government
-              agencies, potentially putting sensitive information at risk of theft.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12">
-          <div class="card">
-            <img class="card-img-top"
-              src="https://d.newsweek.com/en/full/1685981/donald-trump-loses-electoral-college.jpg?w=397&h=265&q=90&f=dbec41f5b78ce31ac87dd858f391636f"
-              alt="politics">
-            <div class="card-body">
-              <h4 class="card-title">Biden Takes Sharp Aim at Trump's Failed Efforts to Undermine His Victory</h4>
-              <p class="card-text">President-elect Joe Biden said that his victory in the electoral college "represented a clear victory" in a Monday
-              speech.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12">
-          <div class="card">
-            <img class="card-img-top"
-              src="https://d.newsweek.com/en/full/1686095/trump-supporter-holding-qanon-flag.webp?w=397&h=265&q=90&f=18293d17659c13628ac48ae9dd2defcd"
-              alt="politics">
-            <div class="card-body">
-              <h4 class="card-title">Donald Trump Retweets Leading Figure in QAnon Conspiracy Theory</h4>
-              <p class="card-text">The QAnon online community has recently helped to spread unfounded allegations about Dominion
-                voting machines.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-      <!-- container-debate -->
-      <div class="container">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fas fa-user"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><button type="button" class="btn ">SUBSCRIBE></button></a>
+        </li>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="lightgray" class="bi bi-list"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+        </svg>
+      </ul>
+    </div>
+  </nav>
+  <!-- container -->
+  <div class="container ">
+    <!-- cards -->
+    <div class="row">
+      <div class="col-12">
         <div class="card">
           <div class="card-header">
-            <div class="card-subtitle mb-2 text-muted">THE DEBATE</div>
+            <div class="card-subtitle mb-2 text-muted">TOP STORY</div>
           </div>
-        <div class="row d-flex">
-          <div class="col-5">
-            <img class="card-img-fluid ml-5"
-              src="https://d.newsweek.com/en/full/1681620/rr-reno.png?w=63&h=63&f=1d30cc9b12c1ab70a547a48d6b21fcb5"
-              alt="reno">
-          </div>
-          <div class="col-7">
-              <h4 class="card-title ml-10">Nationalism and Populism Are the GOP's Future</h4>
-              <div class="card-subtitle mb-2 text-muted">BY R.R. RENO</div>
-          </div>
-          </div>
-
-          <hr class="mt-3">
-
-          <div class="row d-flex">
-            <div class="col-8">
-              <h4 class="card-title ml-5">A Defense of Zombie Conservatism</h4>
-              <div class="card-subtitle mb-2 ml-5 text-muted">BY CHARLES C.W. COOKE</div>
-            </div>
-            <div class="col-4">
-              <img class="card-img-fluid ml-4"
-                src="https://d.newsweek.com/en/full/1681621/charles-cw-cooke.png?w=63&h=63&f=d351c79943ce6bcd75815493d9073b04" alt="reno">
-            </div>
-          </div>
+          <img class="card-img-top"
+            src="https://d.newsweek.com/en/full/1686010/russias-putin-sitting-desk-flags.webp?w=591&amp;h=364&amp;f=6485dddec2e057b0c608ab539e0a63fc"
+            alt="world">
+          <div class="card-body">
+            <h4 class="card-title">Republicans, Democrats React as Bill Barr Resigns: 'A Five-Alarm Fire'</h4>
+            <p class="card-text">Senator Ted Cruz praised Barr as a "patriot" but other Republicans had criticism for
+              President
+              Trump.</p>
           </div>
         </div>
-        <!-- opinion container-->
-        <div class="container">
-          <div class="card">
-            <div class="card-header">
-              <div class="card-subtitle mb-2 text-muted">OPINION</div>
-            </div>
-            <div class="row d-flex mt-4">
-              <div class="col-5">
-                <img class="card-img-fluid ml-5"
-                  src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
-                  alt="reno">
-              </div>
-              <div class="col-7">
-                <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-                <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
-              </div>
-            </div>
-            <hr>
-            <div class="row d-flex">
-              <div class="col-5">
-                <img class="card-img-fluid ml-5"
-                  src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
-                  alt="reno">
-              </div>
-              <div class="col-7">
-                <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-                <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
-              </div>
-            </div>
-            <hr>
-            <div class="row d-flex">
-              <div class="col-5">
-                <img class="card-img-fluid ml-5"
-                  src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
-                  alt="reno">
-              </div>
-              <div class="col-7">
-                <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-                <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
-              </div>
-            </div>
-            <hr>
-            <div class="row d-flex">
-              <div class="col-5">
-                <img class="card-img-fluid ml-5"
-                  src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
-                  alt="reno">
-              </div>
-              <div class="col-7">
-                <h4 class="card-title mr-15">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-                <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
-              </div>
-            </div>
-            <hr>
-            <div class="row d-flex">
-              <div class="col-5">
-                <img class="card-img-fluid ml-5"
-                  src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
-                  alt="reno">
-              </div>
-              <div class="col-7">
-                <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-                <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
-              </div>
-            </div>
-            <hr>
-            <div class="row d-flex">
-              <div class="col-5">
-                <img class="card-img-fluid ml-5"
-                  src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
-                  alt="reno">
-              </div>
-              <div class="col-7">
-                <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-                <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
-              </div>
-            </div>
-            <hr>
-            <div class="row d-flex">
-              <div class="col-5">
-                <img class="card-img-fluid ml-5"
-                  src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
-                  alt="reno">
-              </div>
-              <div class="col-7">
-                <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-                <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
-              </div>
-            </div>
-            </div>
-          </div>
-          <!-- blue sticker -->
-          <div class="container ">
-            <!-- cards -->
-            <div class="row">
-              <div class="col-12">
-                <div class="card">
-                  <img class="card-img-top"
-                    src="https://d.newsweek.com/en/full/1686131/president-donald-trump-gives-thumbs.webp?w=397&h=265&q=90&f=faaade9c449c4c2c11be985646236472"
-                    alt="world">
-                  <div class="card-body">
-                    <h4 class="card-title">Berlin Partners Power NNOVATE</h4>
-                    <p class="card-text">Berlin has long been a place where new technologies develop at a particularly rapid pace. In the early years, the city
-                    was a special breeding ground for blockchain technology with its subversive flair. Today, the technology has become an
-                    important economic factor with countless use-cases. See the latest in crypto + blockchain and business.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="card">
-                  <img class="card-img-top"
-                    src="https://d.newsweek.com/en/full/1686131/president-donald-trump-gives-thumbs.webp?w=397&h=265&q=90&f=faaade9c449c4c2c11be985646236472"
-                    alt="world">
-                  <div class="card-body">
-                    <h4 class="card-title">Berlin Partners Power NNOVATE</h4>
-                    <p class="card-text">Berlin has long been a place where new technologies develop at a particularly rapid pace.
-                      In the early years, the city
-                      was a special breeding ground for blockchain technology with its subversive flair. Today, the technology has
-                      become an
-                      important economic factor with countless use-cases. See the latest in crypto + blockchain and business.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="card">
-                  <img class="card-img-top"
-                    src="https://d.newsweek.com/en/full/1686131/president-donald-trump-gives-thumbs.webp?w=397&h=265&q=90&f=faaade9c449c4c2c11be985646236472"
-                    alt="world">
-                  <div class="card-body">
-                    <h4 class="card-title">Berlin Partners Power NNOVATE</h4>
-                    <p class="card-text">Berlin has long been a place where new technologies develop at a particularly rapid pace.
-                      In the early years, the city
-                      was a special breeding ground for blockchain technology with its subversive flair. Today, the technology has
-                      become an
-                      important economic factor with countless use-cases. See the latest in crypto + blockchain and business.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="card">
-                  <img class="card-img-top"
-                    src="https://d.newsweek.com/en/full/1686131/president-donald-trump-gives-thumbs.webp?w=397&h=265&q=90&f=faaade9c449c4c2c11be985646236472"
-                    alt="world">
-                  <div class="card-body">
-                    <h4 class="card-title">Berlin Partners Power NNOVATE</h4>
-                    <p class="card-text">Berlin has long been a place where new technologies develop at a particularly rapid pace.
-                      In the early years, the city
-                      was a special breeding ground for blockchain technology with its subversive flair. Today, the technology has
-                      become an
-                      important economic factor with countless use-cases. See the latest in crypto + blockchain and business.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="card">
-                  <img class="card-img-top"
-                    src="https://d.newsweek.com/en/full/1686131/president-donald-trump-gives-thumbs.webp?w=397&h=265&q=90&f=faaade9c449c4c2c11be985646236472"
-                    alt="world">
-                  <div class="card-body">
-                    <h4 class="card-title">Berlin Partners Power NNOVATE</h4>
-                    <p class="card-text">Berlin has long been a place where new technologies develop at a particularly rapid pace.
-                      In the early years, the city
-                      was a special breeding ground for blockchain technology with its subversive flair. Today, the technology has
-                      become an
-                      important economic factor with countless use-cases. See the latest in crypto + blockchain and business.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="card">
-                  <img class="card-img-top"
-                    src="https://d.newsweek.com/en/full/1686131/president-donald-trump-gives-thumbs.webp?w=397&h=265&q=90&f=faaade9c449c4c2c11be985646236472"
-                    alt="world">
-                  <div class="card-body">
-                    <h4 class="card-title">Berlin Partners Power NNOVATE</h4>
-                    <p class="card-text">Berlin has long been a place where new technologies develop at a particularly rapid pace.
-                      In the early years, the city
-                      was a special breeding ground for blockchain technology with its subversive flair. Today, the technology has
-                      become an
-                      important economic factor with countless use-cases. See the latest in crypto + blockchain and business.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="card">
-                  <img class="card-img-top"
-                    src="https://d.newsweek.com/en/full/1686131/president-donald-trump-gives-thumbs.webp?w=397&h=265&q=90&f=faaade9c449c4c2c11be985646236472"
-                    alt="world">
-                  <div class="card-body">
-                    <h4 class="card-title">Berlin Partners Power NNOVATE</h4>
-                    <p class="card-text">Berlin has long been a place where new technologies develop at a particularly rapid pace.
-                      In the early years, the city
-                      was a special breeding ground for blockchain technology with its subversive flair. Today, the technology has
-                      become an
-                      important economic factor with countless use-cases. See the latest in crypto + blockchain and business.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="card">
-                  <img class="card-img-top"
-                    src="https://d.newsweek.com/en/full/1686131/president-donald-trump-gives-thumbs.webp?w=397&h=265&q=90&f=faaade9c449c4c2c11be985646236472"
-                    alt="world">
-                  <div class="card-body">
-                    <h4 class="card-title">Berlin Partners Power NNOVATE</h4>
-                    <p class="card-text">Berlin has long been a place where new technologies develop at a particularly rapid pace.
-                      In the early years, the city
-                      was a special breeding ground for blockchain technology with its subversive flair. Today, the technology has
-                      become an
-                      important economic factor with countless use-cases. See the latest in crypto + blockchain and business.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- more stories container -->
-                <div class="container">
-                  <div class="card">
-                    <div class="card-header">
-                      <div class="card-subtitle mb-2 text-muted">MORE STORIES</div>
-                    </div>
-                    <div class="row d-flex">
-                      <div class="col-5">
-                        <img class="card-img-fluid ml-5 mt-4"
-                          src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
-                          alt="reno">
-                      </div>
-                      <div class="col-7">
-                        <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
-                        <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique Tarrio was photographed at the White House during a
-                        tour.</div>
-                      </div>
-                    </div>
-                    <hr>
-                    <div class="row d-flex">
-                      <div class="col-5">
-                        <img class="card-img-fluid ml-5 mt-4"
-                          src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
-                          alt="reno">
-                      </div>
-                      <div class="col-7">
-                        <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
-                        <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
-                          Tarrio was photographed at the White House during a
-                          tour.</div>
-                      </div>
-                    </div>
-                    <hr>
-                    <div class="row d-flex">
-                      <div class="col-5">
-                        <img class="card-img-fluid ml-5 mt-4"
-                          src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
-                          alt="reno">
-                      </div>
-                      <div class="col-7">
-                        <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
-                        <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
-                          Tarrio was photographed at the White House during a
-                          tour.</div>
-                      </div>
-                    </div>
-                    <hr>
-                    <div class="row d-flex">
-                      <div class="col-5">
-                        <img class="card-img-fluid ml-5 mt-4"
-                          src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
-                          alt="reno">
-                      </div>
-                      <div class="col-7">
-                        <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
-                        <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
-                          Tarrio was photographed at the White House during a
-                          tour.</div>
-                      </div>
-                    </div>
-                    <hr>
-                    <div class="row d-flex">
-                      <div class="col-5">
-                        <img class="card-img-fluid ml-5 mt-4"
-                          src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
-                          alt="reno">
-                      </div>
-                      <div class="col-7">
-                        <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
-                        <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
-                          Tarrio was photographed at the White House during a
-                          tour.</div>
-                      </div>
-                    </div>
-                    <hr>
-                    <div class="row d-flex">
-                      <div class="col-5">
-                        <img class="card-img-fluid ml-5 mt-4"
-                          src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
-                          alt="reno">
-                      </div>
-                      <div class="col-7">
-                        <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
-                        <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
-                          Tarrio was photographed at the White House during a
-                          tour.</div>
-                      </div>
-                    </div>
-                    <hr>
-                    <div class="row d-flex">
-                      <div class="col-5">
-                        <img class="card-img-fluid ml-5 mt-4"
-                          src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
-                          alt="reno">
-                      </div>
-                      <div class="col-7">
-                        <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
-                        <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
-                          Tarrio was photographed at the White House during a
-                          tour.</div>
-                      </div>
-                    </div>
-                    <hr>
-                    <div class="row d-flex">
-                      <div class="col-5">
-                        <img class="card-img-fluid ml-5 mt-4"
-                          src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
-                          alt="reno">
-                      </div>
-                      <div class="col-7">
-                        <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
-                        <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
-                          Tarrio was photographed at the White House during a
-                          tour.</div>
-                      </div>
-                    </div>
-                    <hr>
-                    <div class="row d-flex">
-                      <div class="col-5">
-                        <img class="card-img-fluid ml-5 mt-4"
-                          src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
-                          alt="reno">
-                      </div>
-                      <div class="col-7">
-                        <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
-                        <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
-                          Tarrio was photographed at the White House during a
-                          tour.</div>
-                      </div>
-                    </div>
-                    <hr>
-                    <div class="row d-flex">
-                      <div class="col-5">
-                        <img class="card-img-fluid ml-5 mt-4"
-                          src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
-                          alt="reno">
-                      </div>
-                      <div class="col-7">
-                        <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
-                        <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
-                          Tarrio was photographed at the White House during a
-                          tour.</div>
-                      </div>
-                    </div>
-                    <hr>
-                    <div class="row d-flex">
-                      <div class="col-5">
-                        <img class="card-img-fluid ml-5 mt-4"
-                          src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
-                          alt="reno">
-                      </div>
-                      <div class="col-7">
-                        <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
-                        <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
-                          Tarrio was photographed at the White House during a
-                          tour.</div>
-                      </div>
-                    </div>
-                    <hr>
-                    <div class="row d-flex">
-                      <div class="col-5">
-                        <img class="card-img-fluid ml-5 mt-4"
-                          src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
-                          alt="reno">
-                      </div>
-                      <div class="col-7">
-                        <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
-                        <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
-                          Tarrio was photographed at the White House during a
-                          tour.</div>
-                      </div>
-                    </div>
-                    <hr>
-                    <div class="row d-flex">
-                      <div class="col-5">
-                        <img class="card-img-fluid ml-5 mt-4"
-                          src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
-                          alt="reno">
-                      </div>
-                      <div class="col-7">
-                        <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
-                        <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
-                          Tarrio was photographed at the White House during a
-                          tour.</div>
-                      </div>
-                    </div>
-                    <hr>
-
-                    <div class=" container-fluid">
-                      <div class="row">
-                        <div class="footer1">
-                          <a href="#"><img src="./img/footer-logo.jpg" alt="footer-logo"></a>
-                          <p>&#169 2020 NEWSWEEK DIGITAL LLC</p>
-                          <p class="social">
-                            <a href="#"><img src="./img/social1.jpg" alt="social-icon"></a>
-                            <a href="#"><img src="./img/social2.jpg" alt="social-icon"></a>
-                            <a href="#"><img src="./img/social3.jpg" alt="social-icon"></a>
-                            <a href="#"><img src="./img/social4.jpg" alt="social-icon"></a>
-                            <a href="#"><img src="./img/social5.jpg" alt="social-icon"></a>
-                          </p>
-                          <hr>
-                          <div class="foot2">
-                            
-                           <p><b>EDITIONS:</b>&nbsp;U.S. Edition &nbsp;&nbsp; <img src="./img/chinese.jpg" alt="chinese"> &nbsp;&nbsp; Pakistan &nbsp;&nbsp;
-                             Polska &nbsp;&nbsp; Romainia</p>
-                             <p>About Us &nbsp;&nbsp; Corrections &nbsp;&nbsp; Contact Us &nbsp;&nbsp; Editorial Guidlines</p>
-                             <P>Advertise &nbsp;&nbsp; Copyright &nbsp;&nbsp;  Terms &amp; Conditions &nbsp;&nbsp; Privacy Policy</P>
-                             <p>Cookie Policys &nbsp;&nbsp; Terms of Saless &nbsp;&nbsp; Archives &nbsp;&nbsp; Announcements</p>
-                          </div>
-                        </div>
-                      </div>
-                      
-
-                    </div>
-
-
-
-        
-
-    
-    
-    
-    
+      </div>
     </div>
- <!-- footer -->
- <div class="footer">
+  </div>
+  <div class="container FEATURED">
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-subtitle mb-2 text-muted">FEATURED STORY</div>
+          </div>
+          <img class="card-img-top"
+            src="https://d.newsweek.com/en/full/1686025/attorney-general-william-barr-has-resigned.webp?w=397&amp;h=265&amp;q=90&amp;f=d2e4cb2821c66267073927b0066b3412"
+            alt="politics">
+          <div class="card-body">
+            <h4 class="card-title">Putin Congratulates Joe Biden on Winning U.S. Election</h4>
+            <p class="card-text">Russia's President Vladimir Putin was the only major world leader not to have
+              congratulated
+              President-elect Joe Biden,
+              but sent him a telegram after the electoral college confirmed his victory on Monday. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="card">
+          <img class="card-img-top"
+            src="https://d.newsweek.com/en/full/1686095/trump-supporter-holding-qanon-flag.webp?w=397&h=265&q=90&f=18293d17659c13628ac48ae9dd2defcd"
+            alt="politics">
+          <div class="card-body">
+            <h4 class="card-title">Donald Trump Retweets Leading Figure in QAnon Conspiracy Theory</h4>
+            <p class="card-text">The QAnon online community has recently helped to spread unfounded allegations about
+              Dominion voting machines.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="card">
+          <img class="card-img-top"
+            src="https://d.newsweek.com/en/full/1686071/stock-hacker-stealing-information.webp?w=397&h=265&q=90&f=8b2425f0b5b9bd891cf22dcc2abae7f1"
+            alt="tech & science">
+          <div class="card-body">
+            <h4 class="card-title">SolarWinds Hack Exposed After FireEye Cybersecurity Firm Found 'Backdoor'</h4>
+            <p class="card-text">The cyberattack seemingly went undetected for months as hackers were able to sneak into
+              various U.S. government
+              agencies, potentially putting sensitive information at risk of theft.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="card">
+          <img class="card-img-top"
+            src="https://d.newsweek.com/en/full/1685981/donald-trump-loses-electoral-college.jpg?w=397&h=265&q=90&f=dbec41f5b78ce31ac87dd858f391636f"
+            alt="politics">
+          <div class="card-body">
+            <h4 class="card-title">Biden Takes Sharp Aim at Trump's Failed Efforts to Undermine His Victory</h4>
+            <p class="card-text">President-elect Joe Biden said that his victory in the electoral college "represented a
+              clear victory" in a Monday
+              speech.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="card">
+          <img class="card-img-top"
+            src="https://d.newsweek.com/en/full/1686095/trump-supporter-holding-qanon-flag.webp?w=397&h=265&q=90&f=18293d17659c13628ac48ae9dd2defcd"
+            alt="politics">
+          <div class="card-body">
+            <h4 class="card-title">Donald Trump Retweets Leading Figure in QAnon Conspiracy Theory</h4>
+            <p class="card-text">The QAnon online community has recently helped to spread unfounded allegations about
+              Dominion
+              voting machines.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- container-debate -->
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-subtitle mb-2 text-muted">THE DEBATE</div>
+      </div>
+      <div class="row d-flex">
+        <div class="col-5">
+          <img class="card-img-fluid ml-5"
+            src="https://d.newsweek.com/en/full/1681620/rr-reno.png?w=63&h=63&f=1d30cc9b12c1ab70a547a48d6b21fcb5"
+            alt="reno">
+        </div>
+        <div class="col-7">
+          <h4 class="card-title ml-10">Nationalism and Populism Are the GOP's Future</h4>
+          <div class="card-subtitle mb-2 text-muted">BY R.R. RENO</div>
+        </div>
+      </div>
 
- </div>
+      <hr class="mt-3">
 
- 
+      <div class="row d-flex">
+        <div class="col-8">
+          <h4 class="card-title ml-5">A Defense of Zombie Conservatism</h4>
+          <div class="card-subtitle mb-2 ml-5 text-muted">BY CHARLES C.W. COOKE</div>
+        </div>
+        <div class="col-4">
+          <img class="card-img-fluid ml-4"
+            src="https://d.newsweek.com/en/full/1681621/charles-cw-cooke.png?w=63&h=63&f=d351c79943ce6bcd75815493d9073b04"
+            alt="reno">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- opinion container-->
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-subtitle mb-2 text-muted">OPINION</div>
+      </div>
+      <div class="row d-flex mt-4">
+        <div class="col-5">
+          <img class="card-img-fluid ml-5"
+            src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
+            alt="reno">
+        </div>
+        <div class="col-7">
+          <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
+          <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+        </div>
+      </div>
+      <hr>
+      <div class="row d-flex">
+        <div class="col-5">
+          <img class="card-img-fluid ml-5"
+            src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
+            alt="reno">
+        </div>
+        <div class="col-7">
+          <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
+          <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+        </div>
+      </div>
+      <hr>
+      <div class="row d-flex">
+        <div class="col-5">
+          <img class="card-img-fluid ml-5"
+            src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
+            alt="reno">
+        </div>
+        <div class="col-7">
+          <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
+          <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+        </div>
+      </div>
+      <hr>
+      <div class="row d-flex">
+        <div class="col-5">
+          <img class="card-img-fluid ml-5"
+            src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
+            alt="reno">
+        </div>
+        <div class="col-7">
+          <h4 class="card-title mr-15">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
+          <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+        </div>
+      </div>
+      <hr>
+      <div class="row d-flex">
+        <div class="col-5">
+          <img class="card-img-fluid ml-5"
+            src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
+            alt="reno">
+        </div>
+        <div class="col-7">
+          <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
+          <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+        </div>
+      </div>
+      <hr>
+      <div class="row d-flex">
+        <div class="col-5">
+          <img class="card-img-fluid ml-5"
+            src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
+            alt="reno">
+        </div>
+        <div class="col-7">
+          <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
+          <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+        </div>
+      </div>
+      <hr>
+      <div class="row d-flex">
+        <div class="col-5">
+          <img class="card-img-fluid ml-5"
+            src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
+            alt="reno">
+        </div>
+        <div class="col-7">
+          <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
+          <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- blue sticker -->
+  <div class="container ">
+    <!-- cards -->
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <img class="card-img-top"
+            src="https://d.newsweek.com/en/full/1686131/president-donald-trump-gives-thumbs.webp?w=397&h=265&q=90&f=faaade9c449c4c2c11be985646236472"
+            alt="world">
+          <div class="card-body">
+            <h4 class="card-title">Berlin Partners Power NNOVATE</h4>
+            <p class="card-text">Berlin has long been a place where new technologies develop at a particularly rapid
+              pace. In the early years, the city
+              was a special breeding ground for blockchain technology with its subversive flair. Today, the technology
+              has become an
+              important economic factor with countless use-cases. See the latest in crypto + blockchain and business.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <img class="card-img-top"
+            src="https://d.newsweek.com/en/full/1686131/president-donald-trump-gives-thumbs.webp?w=397&h=265&q=90&f=faaade9c449c4c2c11be985646236472"
+            alt="world">
+          <div class="card-body">
+            <h4 class="card-title">Berlin Partners Power NNOVATE</h4>
+            <p class="card-text">Berlin has long been a place where new technologies develop at a particularly rapid
+              pace.
+              In the early years, the city
+              was a special breeding ground for blockchain technology with its subversive flair. Today, the technology
+              has
+              become an
+              important economic factor with countless use-cases. See the latest in crypto + blockchain and business.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <img class="card-img-top"
+            src="https://d.newsweek.com/en/full/1686131/president-donald-trump-gives-thumbs.webp?w=397&h=265&q=90&f=faaade9c449c4c2c11be985646236472"
+            alt="world">
+          <div class="card-body">
+            <h4 class="card-title">Berlin Partners Power NNOVATE</h4>
+            <p class="card-text">Berlin has long been a place where new technologies develop at a particularly rapid
+              pace.
+              In the early years, the city
+              was a special breeding ground for blockchain technology with its subversive flair. Today, the technology
+              has
+              become an
+              important economic factor with countless use-cases. See the latest in crypto + blockchain and business.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <img class="card-img-top"
+            src="https://d.newsweek.com/en/full/1686131/president-donald-trump-gives-thumbs.webp?w=397&h=265&q=90&f=faaade9c449c4c2c11be985646236472"
+            alt="world">
+          <div class="card-body">
+            <h4 class="card-title">Berlin Partners Power NNOVATE</h4>
+            <p class="card-text">Berlin has long been a place where new technologies develop at a particularly rapid
+              pace.
+              In the early years, the city
+              was a special breeding ground for blockchain technology with its subversive flair. Today, the technology
+              has
+              become an
+              important economic factor with countless use-cases. See the latest in crypto + blockchain and business.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <img class="card-img-top"
+            src="https://d.newsweek.com/en/full/1686131/president-donald-trump-gives-thumbs.webp?w=397&h=265&q=90&f=faaade9c449c4c2c11be985646236472"
+            alt="world">
+          <div class="card-body">
+            <h4 class="card-title">Berlin Partners Power NNOVATE</h4>
+            <p class="card-text">Berlin has long been a place where new technologies develop at a particularly rapid
+              pace.
+              In the early years, the city
+              was a special breeding ground for blockchain technology with its subversive flair. Today, the technology
+              has
+              become an
+              important economic factor with countless use-cases. See the latest in crypto + blockchain and business.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <img class="card-img-top"
+            src="https://d.newsweek.com/en/full/1686131/president-donald-trump-gives-thumbs.webp?w=397&h=265&q=90&f=faaade9c449c4c2c11be985646236472"
+            alt="world">
+          <div class="card-body">
+            <h4 class="card-title">Berlin Partners Power NNOVATE</h4>
+            <p class="card-text">Berlin has long been a place where new technologies develop at a particularly rapid
+              pace.
+              In the early years, the city
+              was a special breeding ground for blockchain technology with its subversive flair. Today, the technology
+              has
+              become an
+              important economic factor with countless use-cases. See the latest in crypto + blockchain and business.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <img class="card-img-top"
+            src="https://d.newsweek.com/en/full/1686131/president-donald-trump-gives-thumbs.webp?w=397&h=265&q=90&f=faaade9c449c4c2c11be985646236472"
+            alt="world">
+          <div class="card-body">
+            <h4 class="card-title">Berlin Partners Power NNOVATE</h4>
+            <p class="card-text">Berlin has long been a place where new technologies develop at a particularly rapid
+              pace.
+              In the early years, the city
+              was a special breeding ground for blockchain technology with its subversive flair. Today, the technology
+              has
+              become an
+              important economic factor with countless use-cases. See the latest in crypto + blockchain and business.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <img class="card-img-top"
+            src="https://d.newsweek.com/en/full/1686131/president-donald-trump-gives-thumbs.webp?w=397&h=265&q=90&f=faaade9c449c4c2c11be985646236472"
+            alt="world">
+          <div class="card-body">
+            <h4 class="card-title">Berlin Partners Power NNOVATE</h4>
+            <p class="card-text">Berlin has long been a place where new technologies develop at a particularly rapid
+              pace.
+              In the early years, the city
+              was a special breeding ground for blockchain technology with its subversive flair. Today, the technology
+              has
+              become an
+              important economic factor with countless use-cases. See the latest in crypto + blockchain and business.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- more stories container -->
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-subtitle mb-2 text-muted">MORE STORIES</div>
+      </div>
+      <div class="row d-flex">
+        <div class="col-5">
+          <img class="card-img-fluid ml-5 mt-4"
+            src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            alt="reno">
+        </div>
+        <div class="col-7">
+          <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
+          <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
+            Tarrio was photographed at the White House during a
+            tour.</div>
+        </div>
+      </div>
+      <hr>
+      <div class="row d-flex">
+        <div class="col-5">
+          <img class="card-img-fluid ml-5 mt-4"
+            src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            alt="reno">
+        </div>
+        <div class="col-7">
+          <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
+          <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
+            Tarrio was photographed at the White House during a
+            tour.</div>
+        </div>
+      </div>
+      <hr>
+      <div class="row d-flex">
+        <div class="col-5">
+          <img class="card-img-fluid ml-5 mt-4"
+            src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            alt="reno">
+        </div>
+        <div class="col-7">
+          <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
+          <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
+            Tarrio was photographed at the White House during a
+            tour.</div>
+        </div>
+      </div>
+      <hr>
+      <div class="row d-flex">
+        <div class="col-5">
+          <img class="card-img-fluid ml-5 mt-4"
+            src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            alt="reno">
+        </div>
+        <div class="col-7">
+          <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
+          <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
+            Tarrio was photographed at the White House during a
+            tour.</div>
+        </div>
+      </div>
+      <hr>
+      <div class="row d-flex">
+        <div class="col-5">
+          <img class="card-img-fluid ml-5 mt-4"
+            src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            alt="reno">
+        </div>
+        <div class="col-7">
+          <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
+          <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
+            Tarrio was photographed at the White House during a
+            tour.</div>
+        </div>
+      </div>
+      <hr>
+      <div class="row d-flex">
+        <div class="col-5">
+          <img class="card-img-fluid ml-5 mt-4"
+            src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            alt="reno">
+        </div>
+        <div class="col-7">
+          <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
+          <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
+            Tarrio was photographed at the White House during a
+            tour.</div>
+        </div>
+      </div>
+      <hr>
+      <div class="row d-flex">
+        <div class="col-5">
+          <img class="card-img-fluid ml-5 mt-4"
+            src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            alt="reno">
+        </div>
+        <div class="col-7">
+          <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
+          <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
+            Tarrio was photographed at the White House during a
+            tour.</div>
+        </div>
+      </div>
+      <hr>
+      <div class="row d-flex">
+        <div class="col-5">
+          <img class="card-img-fluid ml-5 mt-4"
+            src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            alt="reno">
+        </div>
+        <div class="col-7">
+          <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
+          <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
+            Tarrio was photographed at the White House during a
+            tour.</div>
+        </div>
+      </div>
+      <hr>
+      <div class="row d-flex">
+        <div class="col-5">
+          <img class="card-img-fluid ml-5 mt-4"
+            src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            alt="reno">
+        </div>
+        <div class="col-7">
+          <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
+          <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
+            Tarrio was photographed at the White House during a
+            tour.</div>
+        </div>
+      </div>
+      <hr>
+      <div class="row d-flex">
+        <div class="col-5">
+          <img class="card-img-fluid ml-5 mt-4"
+            src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            alt="reno">
+        </div>
+        <div class="col-7">
+          <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
+          <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
+            Tarrio was photographed at the White House during a
+            tour.</div>
+        </div>
+      </div>
+      <hr>
+      <div class="row d-flex">
+        <div class="col-5">
+          <img class="card-img-fluid ml-5 mt-4"
+            src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            alt="reno">
+        </div>
+        <div class="col-7">
+          <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
+          <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
+            Tarrio was photographed at the White House during a
+            tour.</div>
+        </div>
+      </div>
+      <hr>
+      <div class="row d-flex">
+        <div class="col-5">
+          <img class="card-img-fluid ml-5 mt-4"
+            src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            alt="reno">
+        </div>
+        <div class="col-7">
+          <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
+          <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
+            Tarrio was photographed at the White House during a
+            tour.</div>
+        </div>
+      </div>
+      <hr>
+      <div class="row d-flex">
+        <div class="col-5">
+          <img class="card-img-fluid ml-5 mt-4"
+            src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            alt="reno">
+        </div>
+        <div class="col-7">
+          <h4 class="card-title ml-10">Proud Boys Say They've Had a Member 'at the White House For Four Years'</h4>
+          <div class="card-subtitle mb-2 text-muted">The far-right group made the claim on Parler after chairmen Enrique
+            Tarrio was photographed at the White House during a
+            tour.</div>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </div>
+  <!-- my turn -->
+  <div class="container ">
+    <div class="card-header">
+      <div class="card-subtitle mb-2 text-muted">MY TURN</div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <img class="card-img-top"
+            src="https://d.newsweek.com/en/full/1686092/police-police-officer-adoption-father-daughter.jpg?w=397&h=397&f=d9266fc66bb3f6fc45ac38f942820e4f"
+            alt="world">
+          <div class="card-body">
+            <p class="card-text">'I'm A Police Officer. I Adopted My Daughter After Helping Her On Duty'</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <img class="card-img-top"
+            src="https://d.newsweek.com/en/full/1684807/joe-biden-rescue-dogs-major-delaware.jpg?w=397&h=397&f=3666c7acb7f0e65ca61c2edd56c1c340"
+            alt="world">
+          <div class="card-body">
+            <p class="card-text">'Joe Biden Adopted The White House's First Rescue Dog From Us'</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <img class="card-img-top"
+            src="https://d.newsweek.com/en/full/1684271/covid-19-coronavirus-vaccine-death-family.jpg?w=397&h=397&f=3bce00f440e7ac5cd2a698da65d24e82"
+            alt="world">
+          <div class="card-body">
+            <p class="card-text">'My Dad Got the COVID Vaccine Days After My Mom Died With the Virus'</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- culture & travel -->
+  <div class="container ">
+    <div class="card-header">
+      <div class="card-subtitle mb-2 text-muted">CULTURE & TRAVEL</div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <img class="card-img-top"
+            src="https://d.newsweek.com/en/full/1685862/diamond-ring-effect.webp?w=397&h=397&f=a217563eabb9b9e43080f2fba3db4d9b"
+            alt="world">
+          <div class="card-body">
+            <p class="card-text">Two Minutes of Magic: Total Solar Eclipse 2020, in Photos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <img class="card-img-top"
+            src="https://d.newsweek.com/en/full/1683896/sake.webp?w=397&h=397&f=7b465b88f5cadb45798da64e967947a3"
+            alt="world">
+          <div class="card-body">
+            <p class="card-text">Kosher Sake Pours Into Japan</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <img class="card-img-top"
+            src="https://d.newsweek.com/en/full/1682551/suv-micro-rv.webp?w=397&h=397&f=71607eddbf7bb620301976f090cfc8f0"
+            alt="world">
+          <div class="card-body">
+            <p class="card-text">Is Car Glamping the More Accessible Alternative to Van Life?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- input email -->
+  <div class="container ">
+    <div class="card-header">
+      <!-- <img class="img-fluid w-25 h-25" src="./img/N-LOGO.png" alt="N-LOGO"> -->
+      <h4 class="card-title">
+        START YOUR DAY WITH OUR TOP 5 ARTICLES
+      </h4>
+      <form>
+        <div class="form-group">
+          <label for="email1"></label>
+          <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter Address">
+        </div>
+        <button type="submit" class="btn btn-danger">Free SignUp ></button>
+        </form>
+    </div>
+    </div>
+    <!-- in the magazine -->
+      <div class="container ">
+        <h3>IN THE MAGAZINE</h3>
+        <div class="row">
+          <div class="col-12">
+            <div class="card">
+              <img class="card-img-top"
+                src="https://d.newsweek.com/en/full/1683391/cover-december-18-2020.webp?w=290&h=387&q=90&f=015904a01dcde04ae7449a1d6fecbdde"
+                alt="world">
+            </div>
+          </div>
+        </div>
+        <div class="card-header">
+          <div class="card-subtitle mb-2 text-muted">SEE ALL FEATURES ></div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="card">
+              <img class="card-img-top"
+                src="https://d.newsweek.com/en/full/1681504/fe-alzheimers-banner.webp?w=466&h=311&l=76&t=58&q=90&f=3c297b4b3f4903f59036eea56b9d92fe"
+                alt="world">
+                <div class="card-body">
+                  <button type="submit" class="btn btn-danger">COVER</button> <span>HEALTH</span>
+                  <p class="card-text">Woman, 73, Who Should've Gotten Alzheimer's, Didn't—Renewing Hope for Cure</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="card">
+              <img class="card-img-top"
+                src="https://d.newsweek.com/en/full/1670728/person-typing-backlit-keyboard.webp?w=466&h=311&q=90&f=a15fb1ccc35a6f89f87311f28934f2cf"
+                alt="world">
+              <div class="card-body">
+                <button type="submit" class="btn btn-danger">COVER</button> <span>HEALTH</span>
+                <p class="card-text">Woman, 73, Who Should've Gotten Alzheimer's, Didn't—Renewing Hope for Cure</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="card">
+              <img class="card-img-top"
+                src="https://d.newsweek.com/en/full/1681504/fe-alzheimers-banner.webp?w=466&h=311&l=76&t=58&q=90&f=3c297b4b3f4903f59036eea56b9d92fe"
+                alt="world">
+              <div class="card-body">
+                <button type="submit" class="btn btn-danger">COVER</button> <span>HEALTH</span>
+                <p class="card-text">Woman, 73, Who Should've Gotten Alzheimer's, Didn't—Renewing Hope for Cure</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="card">
+              <img class="card-img-top"
+                src="https://d.newsweek.com/en/full/1670740/man-multiple-electronic-devices.webp?w=466&h=311&q=90&f=29408c63a72671801d82caf41a76029b"
+                alt="world">
+              <div class="card-body">
+                <button type="submit" class="btn btn-danger">COVER</button> <span>HEALTH</span>
+                <p class="card-text">Woman, 73, Who Should've Gotten Alzheimer's, Didn't—Renewing Hope for Cure</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="card">
+              <img class="card-img-top"
+                src="https://d.newsweek.com/en/full/1681598/covid-economic-relief-bill.webp?w=466&h=311&q=90&f=5adbc9c36d4e9722ff4180cd2e9007f2"
+                alt="world">
+              <div class="card-body">
+                <button type="submit" class="btn btn-danger">COVER</button> <span>HEALTH</span>
+                <p class="card-text">Woman, 73, Who Should've Gotten Alzheimer's, Didn't—Renewing Hope for Cure</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="card">
+              <img class="card-img-top"
+                src="https://d.newsweek.com/en/full/1680434/fe-courts-vs-trump-banner.webp?w=466&h=311&l=22&t=52&q=90&f=fb2903eaf25c97218a5ec554b00b98ba"
+                alt="world">
+              <div class="card-body">
+                <button type="submit" class="btn btn-danger">COVER</button> <span>HEALTH</span>
+                <p class="card-text">Woman, 73, Who Should've Gotten Alzheimer's, Didn't—Renewing Hope for Cure</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- editors pick -->
+        <div class="container ">
+          <h3>EDITORS PICK</h3>
+          <div class="row">
+            <div class="col-12">
+              <div class="card">
+                <img class="card-img-top"
+                  src="https://d.newsweek.com/en/full/1685747/covid-19-testing-site-miami-florida-november-2020.webp?w=397&h=265&f=7858a199e081f63c28bb156c9e25a1e9"
+                  alt="world">
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      Florida COVID Cases Skyrocket Two Weeks After Thanksgiving
+                    </h3>
+                    <p class="card-text">The state's current COVID-19 hospitalizations have been rising sharply since late October.</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="card">
+                <img class="card-img-top"
+                  src="https://d.newsweek.com/en/full/1685688/meghan-markle-visits-canada-house.webp?w=397&h=265&f=3c0be990c613268548f7a988784fa534"
+                  alt="world">
+                <div class="card-body">
+                  <h3 class="card-title">
+                    Florida COVID Cases Skyrocket Two Weeks After Thanksgiving
+                  </h3>
+                  <p class="card-text">The state's current COVID-19 hospitalizations have been rising sharply since late October.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="card">
+                <img class="card-img-top"
+                  src="https://d.newsweek.com/en/full/1685770/nurse-sandra-lindsay-inoculated-covid-19-vaccine.webp?w=397&h=265&f=ebf8cae6729c664292e50b06091c16bc"
+                  alt="world">
+                <div class="card-body">
+                  <h3 class="card-title">
+                    Florida COVID Cases Skyrocket Two Weeks After Thanksgiving
+                  </h3>
+                  <p class="card-text">The state's current COVID-19 hospitalizations have been rising sharply since late October.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="card">
+                <img class="card-img-top"
+                  src="https://d.newsweek.com/en/full/1685981/donald-trump-loses-electoral-college.webp?w=397&h=265&f=ab1e295ae759bee4b7917a4eb1ad1f1d"
+                  alt="world">
+                <div class="card-body">
+                  <h3 class="card-title">
+                    Florida COVID Cases Skyrocket Two Weeks After Thanksgiving
+                  </h3>
+                  <p class="card-text">The state's current COVID-19 hospitalizations have been rising sharply since late October.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="card">
+                <img class="card-img-top"
+                  src="https://d.newsweek.com/en/full/1685820/alex-azar-speaks-white-house-briefing.webp?w=397&h=265&f=6691de90ae6885060c8992c78bed423b"
+                  alt="world">
+                <div class="card-body">
+                  <h3 class="card-title">
+                    Florida COVID Cases Skyrocket Two Weeks After Thanksgiving
+                  </h3>
+                  <p class="card-text">The state's current COVID-19 hospitalizations have been rising sharply since late October.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="card">
+                <img class="card-img-top"
+                  src="https://d.newsweek.com/en/full/1685727/covid-19-testing-site-tel-aviv-israel.webp?w=397&h=265&f=d85d2d8ad7204f4b93ce4887dece2427"
+                  alt="world">
+                <div class="card-body">
+                  <h3 class="card-title">
+                    Florida COVID Cases Skyrocket Two Weeks After Thanksgiving
+                  </h3>
+                  <p class="card-text">The state's current COVID-19 hospitalizations have been rising sharply since late October.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="card">
+                <img class="card-img-top"
+                  src="https://d.newsweek.com/en/full/1685727/covid-19-testing-site-tel-aviv-israel.webp?w=397&h=265&f=d85d2d8ad7204f4b93ce4887dece2427"
+                  alt="world">
+                <div class="card-body">
+                  <h3 class="card-title">
+                    Florida COVID Cases Skyrocket Two Weeks After Thanksgiving
+                  </h3>
+                  <p class="card-text">The state's current COVID-19 hospitalizations have been rising sharply since late October.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="card">
+                <img class="card-img-top"
+                  src="https://d.newsweek.com/en/full/1685703/holocaust-letter.webp?w=397&h=265&f=99ba2399fbf0a93a4ac4aaebba65c6a9"
+                  alt="world">
+                <div class="card-body">
+                  <h3 class="card-title">
+                    Florida COVID Cases Skyrocket Two Weeks After Thanksgiving
+                  </h3>
+                  <p class="card-text">The state's current COVID-19 hospitalizations have been rising sharply since late October.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- bottom container -->
+          <div class="container ">
+            <div class="card-header">
+              <div class="row">
+                <div class="col-12">
+                  <div class="card">
+                    <img class="card-img-top"
+                      src="https://d.newsweek.com/en/full/1683391/cover-december-18-2020.jpg?w=170&q=95&f=e1f2c45a14354ef38b88aed621a70ef7"
+                      alt="world">
+                    <div class="card-body">
+                      <h3 class="card-title">
+                        In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
+                      </h3>
+                      <p class="card-text">All Access + Weekly Delivery.
+                      Choose A Membership That's Perfect for You!
+                      </p>
+                      <button type="submit" class="btn btn-danger">Free SignUp ></button>
+                    </div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  <!-- news letter -->
+          
 
 
 
 
 
- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <!-- footer -->
+  <div class=" container-fluid">
+    <div class="row">
+      <div class="footer1">
+        <a href="#"><img src="./img/footer-logo.jpg" alt="footer-logo"></a>
+        <p>&#169 2020 NEWSWEEK DIGITAL LLC</p>
+        <p class="social">
+          <a href="#"><img src="./img/social1.jpg" alt="social-icon"></a>
+          <a href="#"><img src="./img/social2.jpg" alt="social-icon"></a>
+          <a href="#"><img src="./img/social3.jpg" alt="social-icon"></a>
+          <a href="#"><img src="./img/social4.jpg" alt="social-icon"></a>
+          <a href="#"><img src="./img/social5.jpg" alt="social-icon"></a>
+        </p>
+        <hr>
+        <div class="foot2">
+
+          <p><b>EDITIONS:</b>&nbsp;U.S. Edition &nbsp;&nbsp; <img src="./img/chinese.jpg" alt="chinese"> &nbsp;&nbsp;
+            Pakistan &nbsp;&nbsp;
+            Polska &nbsp;&nbsp; Romainia</p>
+          <p>About Us &nbsp;&nbsp; Corrections &nbsp;&nbsp; Contact Us &nbsp;&nbsp; Editorial Guidlines</p>
+          <P>Advertise &nbsp;&nbsp; Copyright &nbsp;&nbsp; Terms &amp; Conditions &nbsp;&nbsp; Privacy Policy</P>
+          <p>Cookie Policys &nbsp;&nbsp; Terms of Saless &nbsp;&nbsp; Archives &nbsp;&nbsp; Announcements</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
