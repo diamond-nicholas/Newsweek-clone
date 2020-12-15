@@ -1,22 +1,27 @@
-$primary-color: #f72210;
-$primary-font:  "roboto Condensed",sans-serif;
-$primary-weight: bolder;
+$page-color-red: #f72210;
+$sub-font: "Roboto Condensed",sans-serif;
+$sub-weight: bolder;
+$radius: 13%;
 
 nav {
-    background-color: $primary-color;
+  background-color: $page-color-red;
+  height: 50px;
 }
 
-button {
-    font-family: $primary-font;
-    font-weight: $primary-weight;
-}
-
-.navbar-toggler-icon {
-    color: rgba($color: #fff, $alpha: 0.75);
+.btn {
+  font-family: $sub-font;
+  font-weight: $sub-weight;
+  background-color: #ffe400;
+  border-radius: $radius;
+  padding: 0 8px;
+  height: 20px;
+  width: 100px;
+  font-size: 13px;
+  text-align: center;
 }
 
 .fas {
-    color: rgba($color: #fff, $alpha: 0.75);
-
+  color: rgba($color: #fff, $alpha: 0.75);
 }
+
 
