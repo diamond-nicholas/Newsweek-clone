@@ -49,7 +49,7 @@ nav {
   top: 15px;
 }
 
-.footer1 {
+.footerr {
   @extend %footer-style;
 }
 
@@ -58,9 +58,16 @@ nav {
   margin-bottom: 5px;
 }
 
-.social {
+.footer-social {
   margin-top: -12px;
   margin-bottom: -8px;
+}
+
+.row2 {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+  margin-top: -400px;
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -89,5 +96,55 @@ nav {
         margin-top: 23px;
         margin-right: -20px;
         visibility: visible;
+    }
+
+    .footer1 {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .footer-social {
+      display: flex;
+      flex-direction: row;
+      margin-top: 20px;
+      margin-bottom: 5px;
+      margin-left: auto;
+      
+    }
+
+    .footer-text {
+      overflow-wrap: normal;
+      margin-top: 30px;
+      margin-bottom: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      color: #666666;
+    }
+
+    .footer-image {
+      margin-top: 7px;
+    }
+
+    hr {
+      margin-top: 0;
+    }
+
+    .foot2 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      color: #666666;
+    }
+
+    .row2 {
+      visibility: visible;
+      height: 200px;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .row1 {
+     visibility: hidden;
+     height: 0;
     }
 }
