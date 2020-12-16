@@ -6,6 +6,10 @@ bin-release/
 
 # Other files and folders
 .settings/
+index2.html
+main2.scss
+styles2.css
+styles2.css.map
 
 # Executables
 *.swf

@@ -1,7 +1,8 @@
 $page-color-red: #f72210;
 $sub-font: "Roboto Condensed",sans-serif;
 $sub-weight: bolder;
-$radius: 13%;
+$radius: 24px;
+$icon-color: rgba($color: #fff, $alpha: 0.75);
 %footer-style {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -9,12 +10,16 @@ $radius: 13%;
   margin-left: 10px;
 }
 
+.login {
+    visibility: hidden;
+}
+
 nav {
   background-color: $page-color-red;
   height: 50px;
 }
 
- .btn {
+.btn {
    font-family: $sub-font;
    font-weight: $sub-weight;
    background-color: #ffe400;
@@ -24,6 +29,7 @@ nav {
    width: 100px;
    font-size: 13px;
    text-align: center;
+   
 }
 
 .card {
@@ -31,11 +37,15 @@ nav {
 }
 
 .fas {
-  color: rgba($color: #fff, $alpha: 0.75);
+  color: $icon-color;
+}
+
+.fa-bars {
+    padding-top: 12px;
 }
 
 .bi-list {
-  position: relative;
+  position: relative ;
   top: 15px;
 }
 
@@ -53,3 +63,31 @@ nav {
   margin-bottom: -8px;
 }
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .fa-bars {
+        font-size: 30px;
+        margin-top: 7px;
+        color: rgba($color: #fff, $alpha: 0.60);
+    }
+
+    .fa-user {
+        visibility: hidden;
+    }
+
+    .btn {
+        height: 30px;
+        width: 170px;
+        font-size: 20px;
+       margin-top: 12px;
+    }
+
+    .login {
+        font-family: $sub-font;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        margin-top: 23px;
+        margin-right: -20px;
+        visibility: visible;
+    }
+}
