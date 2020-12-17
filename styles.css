@@ -84,6 +84,45 @@
 
 .container {
   margin-top: 150px;
+  max-width: 100%;
+}
+
+.row-container {
+  height: 3000px;
+}
+
+.my-turn-col {
+  width: 100%;
+}
+
+.turn-card {
+  margin: 0 10px;
+}
+
+.home {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.home-stories {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.email-header {
+  display: flex;
+  margin-left: 700px;
+}
+
+.email-header img {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.email-header p {
+  font-weight: bold;
 }
 
 nav {
@@ -133,18 +172,6 @@ nav {
 .btn2 .bi-list {
   position: relative;
   top: 15px;
-}
-.btn2 .email-header {
-  display: flex;
-  justify-content: space-between;
-}
-.btn2 .email-header img {
-  width: 30px;
-  height: 30px;
-  margin-right: 15px;
-}
-.btn2 .email-header p {
-  font-weight: bold;
 }
 .btn2 form button {
   padding: 0 37%;

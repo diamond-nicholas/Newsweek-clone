@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
                          integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -93,9 +96,9 @@
 
   <div class="container">
     <!-- creating 2 columns in 1 row for both top-story & featured-news -->
-    <div class="row">
+    <div class="row row-container">
       <!-- top story -->
-      <div class="col-sm-12 col-md-6 order-md-2 col-lg-4">
+      <div class="col-sm-12 col-md-7 order-md-2 col-lg-6">
         <div class="card">
           <div class="card-header">
             <div class="card-subtitle mb-2 ext-muted">TOP STORY</div>
@@ -111,217 +114,195 @@
           </div>
         </div>
         <!-- MY-TURN -->
-        <div class="card-header">
-          <div class="card-subtitle mb-2 text-muted">MY TURN</div>
-        </div>
-        <div class="row">
-          <div class="col d-md-flex d-lg-flex">
-            <div class="card">
-              <img class="card-img-top turn-img"
-                src="https://d.newsweek.com/en/full/1686092/police-police-officer-adoption-father-daughter.jpg?w=397&h=397&f=d9266fc66bb3f6fc45ac38f942820e4f"
-                alt="world">
-              <div class="card-body">
-                <p class="card-text">'I'm A Police Officer. I Adopted My Daughter After Helping Her On Duty'</p>
-              </div>
+        <h4 class="text-muted">MY TURN</h4>
+        <hr>
+        <div class="row turn mt-2 mb-2">
+          <div class="col d-md-flex d-lg-flex my-turn-col">
+            <div>
+              <figure class="figure w-100">
+                <img src="https://d.newsweek.com/en/full/1686092/police-police-officer-adoption-father-daughter.jpg?w=397&h=397&f=d9266fc66bb3f6fc45ac38f942820e4f" class="figure-img img-fluid rounded shadow-lg" alt="turn">
+                <figcaption class="figure-caption text-center font-weight-bold">'I'm A Police Officer. I Adopted My Daughter After Helping Her On Duty'</figcaption>
+              </figure>
             </div>
-  
-            <div class="card">
-              <img class="card-img-top"
-                src="https://d.newsweek.com/en/full/1684807/joe-biden-rescue-dogs-major-delaware.jpg?w=397&h=397&f=3666c7acb7f0e65ca61c2edd56c1c340"
-                alt="world">
-              <div class="card-body">
-                <p class="card-text">'Joe Biden Adopted The White House's First Rescue Dog From Us'</p>
-              </div>
+            <div>
+              <figure class="figure w-100">
+                <img src="https://d.newsweek.com/en/full/1686092/police-police-officer-adoption-father-daughter.jpg?w=397&h=397&f=d9266fc66bb3f6fc45ac38f942820e4f" class="figure-img img-fluid rounded shadow-lg" alt="turn">
+                <figcaption class="figure-caption text-center font-weight-bold">'I'm A Police Officer. I Adopted My Daughter After Helping Her On Duty'</figcaption>
+              </figure>
             </div>
-  
-            <div class="card">
-              <img class="card-img-top"
-                src="https://d.newsweek.com/en/full/1684271/covid-19-coronavirus-vaccine-death-family.jpg?w=397&h=397&f=3bce00f440e7ac5cd2a698da65d24e82"
-                alt="world">
-              <div class="card-body">
-                <p class="card-text">'My Dad Got the COVID Vaccine Days After My Mom Died With the Virus'</p>
-              </div>
+            <div>
+              <figure class="figure w-100">
+                <img src="https://d.newsweek.com/en/full/1686092/police-police-officer-adoption-father-daughter.jpg?w=397&h=397&f=d9266fc66bb3f6fc45ac38f942820e4f" class="figure-img img-fluid rounded shadow-lg" alt="turn">
+                <figcaption class="figure-caption text-center font-weight-bold">'I'm A Police Officer. I Adopted My Daughter After Helping Her On Duty'</figcaption>
+              </figure>
             </div>
-  
           </div>
-        </div>
+          </div>
         <!-- culture & travel -->
         <div class="card-header">
-          <div class="card-subtitle mb-2 text-muted">CULTURE & TRAVEL</div>
+          <div class="card-subtitle mb-2 text-muted">CULTURE & TRAVELS</div>
         </div>
-        <div class="row">
-          <div class="col d-md-flex d-lg-flex">
-            <div class="card">
-              <img class="card-img-top"
-                src="https://d.newsweek.com/en/full/1685862/diamond-ring-effect.webp?w=397&h=397&f=a217563eabb9b9e43080f2fba3db4d9b"
-                alt="world">
-              <div class="card-body">
-                <p class="card-text">'I'm A Police Officer. I Adopted My Daughter After Helping Her On Duty'</p>
-              </div>
+        <div class="row turn mt-2 mb-2">
+          <div class="col d-md-flex d-lg-flex my-turn-col">
+            <div>
+              <figure class="figure w-100">
+                <img
+                  src="https://d.newsweek.com/en/full/1686971/nyc-snow-day.webp?w=397&h=397&f=67d34c97b5dcc1438a456a6c4df797b1"
+                  class="figure-img img-fluid rounded shadow-lg" alt="turn">
+                <figcaption class="figure-caption text-center font-weight-bold">'I'm A Police Officer. I Adopted My Daughter
+                  After Helping Her On Duty'</figcaption>
+              </figure>
             </div>
-  
-            <div class="card">
-              <img class="card-img-top"
-                src="https://d.newsweek.com/en/full/1683896/sake.webp?w=397&h=397&f=7b465b88f5cadb45798da64e967947a3"
-                alt="world">
-              <div class="card-body">
-                <p class="card-text">'Joe Biden Adopted The White House's First Rescue Dog From Us'</p>
-              </div>
+            <div>
+              <figure class="figure w-100">
+                <img
+                  src="https://d.newsweek.com/en/full/1687050/preparing-winter-30-steps.webp?w=397&h=397&f=995694858e5cdbca333252dfdff48643"
+                  class="figure-img img-fluid rounded shadow-lg" alt="turn">
+                <figcaption class="figure-caption text-center font-weight-bold">'I'm A Police Officer. I Adopted My Daughter
+                  After Helping Her On Duty'</figcaption>
+              </figure>
             </div>
-  
-            <div class="card">
-              <img class="card-img-top"
-                src="https://d.newsweek.com/en/full/1682551/suv-micro-rv.webp?w=397&h=397&f=71607eddbf7bb620301976f090cfc8f0"
-                alt="world">
-              <div class="card-body">
-                <p class="card-text">'My Dad Got the COVID Vaccine Days After My Mom Died With the Virus'</p>
-              </div>
+            <div>
+              <figure class="figure w-100">
+                <img
+                  src="https://d.newsweek.com/en/full/1686425/2020-phrase.webp?w=397&h=397&f=1ebc5ae78f1d968410934e28f3265b16"
+                  class="figure-img img-fluid rounded shadow-lg" alt="turn">
+                <figcaption class="figure-caption text-center font-weight-bold">'I'm A Police Officer. I Adopted My Daughter
+                  After Helping Her On Duty'</figcaption>
+              </figure>
             </div>
           </div>
         </div>
   
         <!-- more stories -->
-        <div class="card-header">
-          <div class="card-subtitle mb-2 text-muted">MORE STORIES</div>
-        </div>
+        <h4 class="text-muted">MORE STORIES</h4>
+        <hr>
         <div class="d-flex">
           <div>
-            <img class="card-img-fluid ml-5"
-              src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            <img class="card-img-fluid ml-3 mt-2"
+              src="https://d.newsweek.com/en/full/1687783/macron-paris-before-covid-diagnosis-confirmed.webp?w=95&h=95&f=d1b5b49a7967f57e361635d2740f6c95"
               alt="reno">
           </div>
           <div>
-            <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-            <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
-          </div>
-        </div>
-        <div class="d-flex">
-          <div>
-            <img class="card-img-fluid ml-5"
-              src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
-              alt="reno">
-          </div>
-          <div>
-            <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-            <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+            <p class="home-stories ml-3">Emmanuel Macron COVID Diagnosis Confirmed, French President Will Isolate</p>
+            <div class="card-subtitle mb-2 text-muted ml-3">The 42-year-old tested positive having displayed symptoms, and is now beginning a seven-day isolation period.</div>
           </div>
         </div>
         <div class="d-flex">
           <div>
-            <img class="card-img-fluid ml-5"
-              src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            <img class="card-img-fluid ml-3 mt-2"
+              src="https://d.newsweek.com/en/full/1687783/macron-paris-before-covid-diagnosis-confirmed.webp?w=95&h=95&f=d1b5b49a7967f57e361635d2740f6c95"
               alt="reno">
           </div>
           <div>
-            <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-            <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+            <p class="home-stories ml-3">Emmanuel Macron COVID Diagnosis Confirmed, French President Will Isolate</p>
+            <div class="card-subtitle mb-2 text-muted ml-3">The 42-year-old tested positive having displayed symptoms, and is now beginning a seven-day isolation period.</div>
           </div>
         </div>
         <div class="d-flex">
           <div>
-            <img class="card-img-fluid ml-5"
-              src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            <img class="card-img-fluid ml-3 mt-2"
+              src="https://d.newsweek.com/en/full/1687783/macron-paris-before-covid-diagnosis-confirmed.webp?w=95&h=95&f=d1b5b49a7967f57e361635d2740f6c95"
               alt="reno">
           </div>
           <div>
-            <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-            <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+            <p class="home-stories ml-3">Emmanuel Macron COVID Diagnosis Confirmed, French President Will Isolate</p>
+            <div class="card-subtitle mb-2 text-muted ml-3">The 42-year-old tested positive having displayed symptoms, and is now beginning a seven-day isolation period.</div>
           </div>
         </div>
         <div class="d-flex">
           <div>
-            <img class="card-img-fluid ml-5"
-              src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            <img class="card-img-fluid ml-3 mt-2"
+              src="https://d.newsweek.com/en/full/1687783/macron-paris-before-covid-diagnosis-confirmed.webp?w=95&h=95&f=d1b5b49a7967f57e361635d2740f6c95"
               alt="reno">
           </div>
           <div>
-            <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-            <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+            <p class="home-stories ml-3">Emmanuel Macron COVID Diagnosis Confirmed, French President Will Isolate</p>
+            <div class="card-subtitle mb-2 text-muted ml-3">The 42-year-old tested positive having displayed symptoms, and is now beginning a seven-day isolation period.</div>
           </div>
         </div>
         <div class="d-flex">
           <div>
-            <img class="card-img-fluid ml-5"
-              src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            <img class="card-img-fluid ml-3 mt-2"
+              src="https://d.newsweek.com/en/full/1687783/macron-paris-before-covid-diagnosis-confirmed.webp?w=95&h=95&f=d1b5b49a7967f57e361635d2740f6c95"
               alt="reno">
           </div>
           <div>
-            <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-            <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+            <p class="home-stories ml-3">Emmanuel Macron COVID Diagnosis Confirmed, French President Will Isolate</p>
+            <div class="card-subtitle mb-2 text-muted ml-3">The 42-year-old tested positive having displayed symptoms, and is now beginning a seven-day isolation period.</div>
           </div>
         </div>
         <div class="d-flex">
           <div>
-            <img class="card-img-fluid ml-5"
-              src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            <img class="card-img-fluid ml-3 mt-2"
+              src="https://d.newsweek.com/en/full/1687783/macron-paris-before-covid-diagnosis-confirmed.webp?w=95&h=95&f=d1b5b49a7967f57e361635d2740f6c95"
               alt="reno">
           </div>
           <div>
-            <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-            <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+            <p class="home-stories ml-3">Emmanuel Macron COVID Diagnosis Confirmed, French President Will Isolate</p>
+            <div class="card-subtitle mb-2 text-muted ml-3">The 42-year-old tested positive having displayed symptoms, and is now beginning a seven-day isolation period.</div>
           </div>
         </div>
         <div class="d-flex">
           <div>
-            <img class="card-img-fluid ml-5"
-              src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            <img class="card-img-fluid ml-3 mt-2"
+              src="https://d.newsweek.com/en/full/1687783/macron-paris-before-covid-diagnosis-confirmed.webp?w=95&h=95&f=d1b5b49a7967f57e361635d2740f6c95"
               alt="reno">
           </div>
           <div>
-            <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-            <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+            <p class="home-stories ml-3">Emmanuel Macron COVID Diagnosis Confirmed, French President Will Isolate</p>
+            <div class="card-subtitle mb-2 text-muted ml-3">The 42-year-old tested positive having displayed symptoms, and is now beginning a seven-day isolation period.</div>
           </div>
         </div>
         <div class="d-flex">
           <div>
-            <img class="card-img-fluid ml-5"
-              src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            <img class="card-img-fluid ml-3 mt-2"
+              src="https://d.newsweek.com/en/full/1687783/macron-paris-before-covid-diagnosis-confirmed.webp?w=95&h=95&f=d1b5b49a7967f57e361635d2740f6c95"
               alt="reno">
           </div>
           <div>
-            <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-            <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+            <p class="home-stories ml-3">Emmanuel Macron COVID Diagnosis Confirmed, French President Will Isolate</p>
+            <div class="card-subtitle mb-2 text-muted ml-3">The 42-year-old tested positive having displayed symptoms, and is now beginning a seven-day isolation period.</div>
           </div>
         </div>
         <div class="d-flex">
           <div>
-            <img class="card-img-fluid ml-5"
-              src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            <img class="card-img-fluid ml-3 mt-2"
+              src="https://d.newsweek.com/en/full/1687783/macron-paris-before-covid-diagnosis-confirmed.webp?w=95&h=95&f=d1b5b49a7967f57e361635d2740f6c95"
               alt="reno">
           </div>
           <div>
-            <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-            <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+            <p class="home-stories ml-3">Emmanuel Macron COVID Diagnosis Confirmed, French President Will Isolate</p>
+            <div class="card-subtitle mb-2 text-muted ml-3">The 42-year-old tested positive having displayed symptoms, and is now beginning a seven-day isolation period.</div>
           </div>
         </div>
         <div class="d-flex">
           <div>
-            <img class="card-img-fluid ml-5"
-              src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            <img class="card-img-fluid ml-3 mt-2"
+              src="https://d.newsweek.com/en/full/1687783/macron-paris-before-covid-diagnosis-confirmed.webp?w=95&h=95&f=d1b5b49a7967f57e361635d2740f6c95"
               alt="reno">
           </div>
           <div>
-            <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-            <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+            <p class="home-stories ml-3">Emmanuel Macron COVID Diagnosis Confirmed, French President Will Isolate</p>
+            <div class="card-subtitle mb-2 text-muted ml-3">The 42-year-old tested positive having displayed symptoms, and is now beginning a seven-day isolation period.</div>
           </div>
         </div>
         <div class="d-flex">
           <div>
-            <img class="card-img-fluid ml-5"
-              src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+            <img class="card-img-fluid ml-3 mt-2"
+              src="https://d.newsweek.com/en/full/1687783/macron-paris-before-covid-diagnosis-confirmed.webp?w=95&h=95&f=d1b5b49a7967f57e361635d2740f6c95"
               alt="reno">
           </div>
           <div>
-            <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-            <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+            <p class="home-stories ml-3">Emmanuel Macron COVID Diagnosis Confirmed, French President Will Isolate</p>
+            <div class="card-subtitle mb-2 text-muted ml-3">The 42-year-old tested positive having displayed symptoms, and is now beginning a seven-day isolation period.</div>
           </div>
         </div>
-  
-  
+        
         <!-- end of column -->
       </div>
       <!-- featured-stories -->
-      <div class="col-sm-12 col-md-6 order-md-1 col-lg-4">
+      <div class="col-sm-12 col-md-5 order-md-1 col-lg-3">
         <div class="card-header">
           <div class="card-subtitle mb-2 text-muted">FEATURED STORIES</div>
         </div>
@@ -486,7 +467,7 @@
   
       </div>
       <!-- the debate -->
-      <div class="col-sm-12 hidden-md order-md-3 col-lg-4">
+      <div class="col-sm-12 hidden-md order-md-3 col-lg-3">
         <div class="card">
           <div class="card-header">
             <div class="card-subtitle mb-2 text-muted">THE DEBATE</div>
@@ -522,79 +503,79 @@
         </div>
         <div class="d-flex">
           <div>
-            <img class="card-img-fluid ml-5"
+            <img class="card-img-fluid ml-3 mt-2"
               src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
               alt="reno">
           </div>
           <div>
-            <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-            <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+            <p class="home ml-3">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3">BY DUNCAN MORROW</div>
           </div>
         </div>
         <div class="d-flex">
           <div>
-            <img class="card-img-fluid ml-5"
+            <img class="card-img-fluid ml-3 mt-2"
               src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
               alt="reno">
           </div>
           <div>
-            <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-            <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+            <p class="home card-title ml-3">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3">BY DUNCAN MORROW</div>
           </div>
         </div>
         <div class="d-flex">
           <div>
-            <img class="card-img-fluid ml-5"
+            <img class="card-img-fluid ml-3 mt-2"
               src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
               alt="reno">
           </div>
           <div>
-            <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-            <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+            <p class="home card-title ml-3">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3">BY DUNCAN MORROW</div>
           </div>
         </div>
         <div class="d-flex">
           <div>
-            <img class="card-img-fluid ml-5"
+            <img class="card-img-fluid ml-3 mt-2"
               src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
               alt="reno">
           </div>
           <div>
-            <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-            <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+            <p class="home card-title ml-3">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3">BY DUNCAN MORROW</div>
           </div>
         </div>
         <div class="d-flex">
           <div>
-            <img class="card-img-fluid ml-5"
+            <img class="card-img-fluid ml-3 mt-2"
               src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
               alt="reno">
           </div>
           <div>
-            <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-            <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+            <p class="home card-title ml-3">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3">BY DUNCAN MORROW</div>
           </div>
         </div>
         <div class="d-flex">
           <div>
-            <img class="card-img-fluid ml-5"
+            <img class="card-img-fluid ml-3 mt-2"
               src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
               alt="reno">
           </div>
           <div>
-            <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-            <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+            <p class="home card-title ml-3">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3">BY DUNCAN MORROW</div>
           </div>
         </div>
         <div class="d-flex">
           <div>
-            <img class="card-img-fluid ml-5"
+            <img class="card-img-fluid ml-3 mt-2"
               src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
               alt="reno">
           </div>
           <div>
-            <h4 class="card-title ml-10">Brexit Has Northern Ireland's Very Future Hanging in the Balance</h4>
-            <div class="card-subtitle mb-2 text-muted">BY DUNCAN MORROW</div>
+            <p class="home card-title ml-3">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3">BY DUNCAN MORROW</div>
           </div>
           <!-- end of opinion -->
         </div>
@@ -616,7 +597,6 @@
         <!-- input email -->
         <div class="container ">
           <div class="card-header">
-            <!-- <img class="img-fluid w-25 h-25" src="./img/N-LOGO.png" alt="N-LOGO"> -->
            <div class="email-header">
              <img src="./img/N-LOGO.png" alt="little-logo">
              <p>
@@ -676,7 +656,11 @@
 
     <!-- started new section and included the magazine section to the container -->
     <!-- in the magazine -->
-    <h3>IN THE MAGAZINE</h3>
+    <div class="magazine email-header">
+      <img src="./img/N-LOGO.png" alt="in the magazine">
+      <h3>IN THE MAGAZINE</h3>
+      <hr>
+    </div>
     <div class="row">
       <div class="col-sm-6 col-md-3 col-lg-3">
         <div class="card">
@@ -694,7 +678,7 @@
             src="https://d.newsweek.com/en/full/1681504/fe-alzheimers-banner.webp?w=466&h=311&l=76&t=58&q=90&f=3c297b4b3f4903f59036eea56b9d92fe"
             alt="world">
           <div class="card-body">
-            <button type="submit" class="btn btn-danger">COVER</button> <span>HEALTH</span>
+            <button type="submit" class="btn-danger">COVER</button> <span>HEALTH</span>
             <p class="card-text">Woman, 73, Who Should've Gotten Alzheimer's, Didn't—Renewing Hope for Cure</p>
           </div>
         </div>
@@ -705,7 +689,7 @@
             src="https://d.newsweek.com/en/full/1670728/person-typing-backlit-keyboard.webp?w=466&h=311&q=90&f=a15fb1ccc35a6f89f87311f28934f2cf"
             alt="world">
           <div class="card-body">
-            <button type="submit" class="btn btn-danger">COVER</button> <span>HEALTH</span>
+            <button type="submit" class="btn-danger">COVER</button> <span>HEALTH</span>
             <p class="card-text">Woman, 73, Who Should've Gotten Alzheimer's, Didn't—Renewing Hope for Cure</p>
           </div>
         </div>
@@ -716,7 +700,7 @@
             src="https://d.newsweek.com/en/full/1670740/man-multiple-electronic-devices.webp?w=466&h=311&q=90&f=29408c63a72671801d82caf41a76029b"
             alt="world">
           <div class="card-body">
-            <button type="submit" class="btn btn-danger">COVER</button> <span>HEALTH</span>
+            <button type="submit" class="btn-danger">COVER</button> <span>HEALTH</span>
             <p class="card-text">Woman, 73, Who Should've Gotten Alzheimer's, Didn't—Renewing Hope for Cure</p>
           </div>
         </div>
@@ -727,7 +711,7 @@
             src="https://d.newsweek.com/en/full/1680434/fe-courts-vs-trump-banner.webp?w=466&h=311&l=22&t=52&q=90&f=fb2903eaf25c97218a5ec554b00b98ba"
             alt="world">
           <div class="card-body">
-            <button type="submit" class="btn btn-danger">COVER</button> <span>HEALTH</span>
+            <button type="submit" class="btn-danger">COVER</button> <span>HEALTH</span>
             <p class="card-text">Woman, 73, Who Should've Gotten Alzheimer's, Didn't—Renewing Hope for Cure</p>
           </div>
         </div>
@@ -738,7 +722,7 @@
             src="https://d.newsweek.com/en/full/1681598/covid-economic-relief-bill.webp?w=466&h=311&q=90&f=5adbc9c36d4e9722ff4180cd2e9007f2"
             alt="world">
           <div class="card-body">
-            <button type="submit" class="btn btn-danger">COVER</button> <span>HEALTH</span>
+            <button type="submit" class="btn-danger">COVER</button> <span>HEALTH</span>
             <p class="card-text">Woman, 73, Who Should've Gotten Alzheimer's, Didn't—Renewing Hope for Cure</p>
           </div>
         </div>
@@ -749,7 +733,7 @@
             src="https://d.newsweek.com/en/full/1670728/person-typing-backlit-keyboard.webp?w=466&h=311&q=90&f=a15fb1ccc35a6f89f87311f28934f2cf"
             alt="world">
           <div class="card-body">
-            <button type="submit" class="btn btn-danger">COVER</button> <span>HEALTH</span>
+            <button type="submit" class="btn-danger">COVER</button> <span>HEALTH</span>
             <p class="card-text">Woman, 73, Who Should've Gotten Alzheimer's, Didn't—Renewing Hope for Cure</p>
           </div>
         </div>
@@ -894,32 +878,8 @@
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    </div>
-
-
-
-
-  </div>
-  
-  
-  
-  
-  
-  
- 
-
-          
+    <!-- end of main container -->
+    </div>        
 
 
 
