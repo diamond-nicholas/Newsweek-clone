@@ -1,4 +1,4 @@
-.footerr {
+.foot2, .footerr {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #666666;
@@ -82,12 +82,8 @@ form button {
   margin-bottom: -8px;
 }
 
-.row2 {
-  visibility: hidden;
-  /* height: 0;
-    width: 0;
-    margin-top: -400px;
-  */
+.row1 {
+  margin-bottom: -400px;
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -123,54 +119,30 @@ form button {
     visibility: visible;
   }
 
-  .footer1 {
-    display: flex;
-    flex-direction: row;
-  }
+  /*.footer1 {
+        display: flex;
+        flex-direction: row;
 
-  .footer-social {
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    margin-left: auto;
+      }
+  */
+  .footer-logo {
+    margin-top: 0;
   }
 
   .footer-text {
-    overflow-wrap: normal;
-    margin-top: 30px;
+    display: inline-block;
+    margin-top: 60px;
     margin-bottom: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: #666666;
+    margin-left: 10px;
+    font-size: 13px;
   }
 
-  .footer-image {
-    margin-top: 7px;
+  .footer-social {
+    margin-top: 60px;
   }
 
   hr {
     margin-top: 0;
-  }
-
-  .foot2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: #666666;
-  }
-
-  .row2 {
-    visibility: visible;
-    /*height: 200px;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    */
-  }
-
-  .row1 {
-    visibility: hidden;
-    height: 0;
   }
 }
 
