@@ -14,6 +14,10 @@ $icon-color: rgba($color: #fff, $alpha: 0.75);
     visibility: hidden;
 }
 
+.container {
+  margin-top: 50px;
+}
+
 nav {
   background-color: $page-color-red;
   height: 50px;
@@ -49,6 +53,31 @@ nav {
   top: 15px;
 }
 
+.email-header {
+  display: flex;
+  justify-content:space-between ;
+}
+
+.email-header img {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px
+}
+
+.email-header p {
+  font-weight: bold;
+}
+
+form button {
+  padding: 0 37%;
+  align-items: center
+}
+
+.turn-img {
+  width: 100px;
+  height: 100px;
+}
+
 .footerr {
   @extend %footer-style;
 }
@@ -78,6 +107,7 @@ nav {
     color: rgba($color: #fff, $alpha: 0.60);
   }
 
+<<<<<<< HEAD
   .fa-user {
     visibility: hidden;
   }
@@ -149,6 +179,34 @@ nav {
     visibility: hidden;
     height: 0;
   }
+=======
+    .btn {
+        height: 30px;
+        width: 170px;
+        font-size: 20px;
+        margin-top: 12px;
+    }
+
+    form button {
+       padding: 0 41%;
+       align-items: center
+}
+
+    .login {
+        font-family: $sub-font;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        margin-top: 23px;
+        margin-right: -20px;
+        visibility: visible;
+    }
+
+    .footer1 {
+      display: flex;
+      flex-direction: row;
+    }
+>>>>>>> b55a0d07c98500ae2b1ca63bd9c4f9aa3b8bbbb2
 
     @media (min-width: 992px) {
      

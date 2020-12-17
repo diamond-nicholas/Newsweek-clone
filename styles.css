@@ -9,6 +9,10 @@
   visibility: hidden;
 }
 
+.container {
+  margin-top: 50px;
+}
+
 nav {
   background-color: #f72210;
   height: 50px;
@@ -41,6 +45,31 @@ nav {
 .bi-list {
   position: relative;
   top: 15px;
+}
+
+.email-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.email-header img {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.email-header p {
+  font-weight: bold;
+}
+
+form button {
+  padding: 0 37%;
+  align-items: center;
+}
+
+.turn-img {
+  width: 100px;
+  height: 100px;
 }
 
 .foot2 p {
@@ -77,6 +106,11 @@ nav {
     width: 170px;
     font-size: 20px;
     margin-top: 12px;
+  }
+
+  form button {
+    padding: 0 41%;
+    align-items: center;
   }
 
   .login {
