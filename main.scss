@@ -10,12 +10,85 @@ $icon-color: rgba($color: #fff, $alpha: 0.75);
   margin-left: 10px;
 }
 
+.navigation {
+  height: 150px;
+  background-color: #f72210;
+}
+
+.logo {
+  margin-top: 5px;
+}
+
+.nv-li {
+  font-weight: bold;
+  font-size: 18px;
+  color: whitesmoke;
+  font-family: $sub-font;
+  margin-left: 5%;
+  margin-top: 52px;
+}
+
+.wt {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.time {
+  margin-top: 0;
+}
+
+.weather {
+  margin-bottom: 0;
+}
+
+.white-nav {
+  background-color: white;
+  height: 50px;
+}
+
+.white-nav2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.white-nav2 a {
+  border-right: 1px solid gray;
+  padding-right: 5px;
+  color: black;
+  font-weight: bold;
+}
+
+.white-nav2 .n-border {
+  border: none;
+}
+
+.white-nav2 li {
+  margin-left: 5px;
+  display: inline;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.nav-line {
+  position: relative;
+  top: 140px;
+}
+
+.fas {
+  color: $icon-color;
+}
+
+.fa-bars {
+  margin-top: 12px;
+}
+
 .login {
     visibility: hidden;
 }
 
 .container {
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 nav {
@@ -23,18 +96,35 @@ nav {
   height: 50px;
 }
 
-.btn {
-   font-family: $sub-font;
-   font-weight: $sub-weight;
-   background-color: #ffe400;
-   border-radius: $radius;
-   padding: 0 8px;
-   height: 20px;
-   width: 100px;
-   font-size: 13px;
-   text-align: center;
-   
+.nav2 {
+  height: 150px;
+  background-color: #f72210;
 }
+
+.btn {
+  font-family: $sub-font;
+  font-weight: $sub-weight;
+  background-color: #ffe400;
+  border-radius: $radius;
+  padding: 0 8px;
+  height: 25px;
+  width: 110px;
+  font-size: 15px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.btn2 {
+  font-family: $sub-font;
+  font-weight: $sub-weight;
+  background-color: #ffe400;
+  border-radius: $radius;
+  padding: 0 8px;
+  height: 35px;
+  width: 130px;
+  font-size: 18px;
+  margin-top: 33px;
+  text-align: center;
 
 .card {
     margin-bottom: 1rem;
@@ -159,8 +249,5 @@ form button {
     hr {
       margin-top: 0;
     }
-    @media (min-width: 992px) {
-     
-      
-    }
+}
 }

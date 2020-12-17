@@ -1,8 +1,81 @@
-.foot2, .footerr {
+.btn2 .foot2, .btn2 .footerr {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #666666;
   margin-left: 10px;
+}
+
+.navigation {
+  height: 150px;
+  background-color: #f72210;
+}
+
+.logo {
+  margin-top: 5px;
+}
+
+.nv-li {
+  font-weight: bold;
+  font-size: 18px;
+  color: whitesmoke;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-left: 5%;
+  margin-top: 52px;
+}
+
+.wt {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.time {
+  margin-top: 0;
+}
+
+.weather {
+  margin-bottom: 0;
+}
+
+.white-nav {
+  background-color: white;
+  height: 50px;
+}
+
+.white-nav2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.white-nav2 a {
+  border-right: 1px solid gray;
+  padding-right: 5px;
+  color: black;
+  font-weight: bold;
+}
+
+.white-nav2 .n-border {
+  border: none;
+}
+
+.white-nav2 li {
+  margin-left: 5px;
+  display: inline;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.nav-line {
+  position: relative;
+  top: 140px;
+}
+
+.fas {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.fa-bars {
+  margin-top: 12px;
 }
 
 .login {
@@ -10,12 +83,17 @@
 }
 
 .container {
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 nav {
   background-color: #f72210;
   height: 50px;
+}
+
+.nav2 {
+  height: 150px;
+  background-color: #f72210;
 }
 
 .btn {
@@ -24,92 +102,97 @@ nav {
   background-color: #ffe400;
   border-radius: 24px;
   padding: 0 8px;
-  height: 20px;
-  width: 100px;
-  font-size: 13px;
+  height: 25px;
+  width: 110px;
+  font-size: 15px;
+  margin-top: 0;
   text-align: center;
 }
 
-.card {
+.btn2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bolder;
+  background-color: #ffe400;
+  border-radius: 24px;
+  padding: 0 8px;
+  height: 35px;
+  width: 130px;
+  font-size: 18px;
+  margin-top: 33px;
+  text-align: center;
+}
+.btn2 .card {
   margin-bottom: 1rem;
 }
-
-.fas {
+.btn2 .fas {
   color: rgba(255, 255, 255, 0.75);
 }
-
-.fa-bars {
+.btn2 .fa-bars {
   padding-top: 12px;
 }
-
-.bi-list {
+.btn2 .bi-list {
   position: relative;
   top: 15px;
 }
-
-.email-header {
+.btn2 .email-header {
   display: flex;
   justify-content: space-between;
 }
-
-.email-header img {
+.btn2 .email-header img {
   width: 30px;
   height: 30px;
   margin-right: 15px;
 }
-
-.email-header p {
+.btn2 .email-header p {
   font-weight: bold;
 }
-
-form button {
+.btn2 form button {
   padding: 0 37%;
   align-items: center;
 }
-
-.turn-img {
+.btn2 .turn-img {
   width: 100px;
   height: 100px;
 }
-
-.foot2 p {
+.btn2 .foot2 p {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-
-.footer-social {
+.btn2 .footer-social {
   margin-top: -12px;
   margin-bottom: -8px;
 }
-
-.row1 {
+.btn2 .row1 {
   margin-bottom: -400px;
 }
-
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .fa-bars {
+  .btn2 {
+    /*.footer1 {
+          display: flex;
+          flex-direction: row;
+
+        }
+    */
+  }
+  .btn2 .fa-bars {
     font-size: 30px;
     margin-top: 7px;
     color: rgba(255, 255, 255, 0.6);
   }
-
-  .fa-user {
+  .btn2 .fa-user {
     visibility: hidden;
   }
-
-  .btn {
+  .btn2 .btn {
     height: 30px;
     width: 170px;
     font-size: 20px;
     margin-top: 12px;
   }
-
-  form button {
+  .btn2 form button {
     padding: 0 41%;
     align-items: center;
   }
-
-  .login {
+  .btn2 .login {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 18px;
     font-weight: bold;
@@ -118,30 +201,20 @@ form button {
     margin-right: -20px;
     visibility: visible;
   }
-
-  /*.footer1 {
-        display: flex;
-        flex-direction: row;
-
-      }
-  */
-  .footer-logo {
+  .btn2 .footer-logo {
     margin-top: 0;
   }
-
-  .footer-text {
+  .btn2 .footer-text {
     display: inline-block;
     margin-top: 60px;
     margin-bottom: 0;
     margin-left: 10px;
     font-size: 13px;
   }
-
-  .footer-social {
+  .btn2 .footer-social {
     margin-top: 60px;
   }
-
-  hr {
+  .btn2 hr {
     margin-top: 0;
   }
 }
