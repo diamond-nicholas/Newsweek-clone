@@ -65,9 +65,10 @@ nav {
 
 .row2 {
   visibility: hidden;
-  height: 0;
+ /* height: 0;
   width: 0;
   margin-top: -400px;
+*/
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -137,10 +138,11 @@ nav {
 
   .row2 {
     visibility: visible;
-    height: 200px;
+    /*height: 200px;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    */
   }
 
   .row1 {
