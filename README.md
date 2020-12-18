@@ -14,7 +14,8 @@ flexbox, float and grid, and media quarys. So using bootstrap we may be able to 
 [Live Demo Link](https://diamond-nicholas.github.io/Newsweek-clone/)
 ## AUTHORS
 👤 **Paul Clue**
-- GitHub: [@Paul-Clue](https://github.com/Paul-Clue/)
+- GitHub: [@Paul-Clue](https://github.com/Paul-Clue/) 
+
 👤 **Diamond Nicholas**
 - GitHub: [@Diamond-Nicholas](https://github.com/diamond-nicholas/Newsweek-clone/)  
 
