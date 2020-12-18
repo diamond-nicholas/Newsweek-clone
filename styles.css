@@ -187,8 +187,8 @@ form button {
   .container {
     margin-top: 50px;
   }
-
 }
+
 @media (min-width: 768px) and (max-width: 991.98px) {
   .fa-bars {
     font-size: 30px;
@@ -245,8 +245,8 @@ form button {
   hr {
     margin-top: 0;
   }
-
 }
+
 @media (min-width: 991.98px) {
   .footer-logo {
     margin-top: 0;
