@@ -206,7 +206,7 @@ form button {
   .fa-bars {
     font-size: 30px;
     margin-top: 7px;
-    color: rgba($color: #fff, $alpha: 0.60);
+    color: rgba($color: #fff, $alpha: 0.6);
   }
 
   .container {
@@ -226,8 +226,8 @@ form button {
 
   form button {
     padding: 0 41%;
-    align-items: center
- }
+    align-items: center;
+  }
 
   .login {
     font-family: $sub-font;
@@ -239,11 +239,10 @@ form button {
     visibility: visible;
   }
 
-   
   .footer-logo {
     margin-top: 0;
   }
-    
+
   .footer-text {
     display: inline-block;
     margin-top: 60px;
@@ -265,7 +264,7 @@ form button {
   .footer-logo {
     margin-top: 0;
   }
-  
+
   .footer-text {
     display: inline-block;
     margin-top: 60px;
@@ -275,7 +274,7 @@ form button {
   }
 
   .footer-social {
-   margin-top: 60px;
+    margin-top: 60px;
   }
 
   hr {
