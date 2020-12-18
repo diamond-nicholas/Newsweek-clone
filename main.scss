@@ -79,7 +79,7 @@ $icon-color: rgba($color: #fff, $alpha: 0.75);
 
 .fas {
   color: $icon-color;
-  visibility: visible
+  visibility: visible;
 }
 
 .fa-bars {
@@ -124,6 +124,7 @@ nav {
 
 .btn {
   @extend %button;
+
   height: 25px;
   width: 110px;
   font-size: 15px;
@@ -132,6 +133,7 @@ nav {
 
 .btn2 {
   @extend %button;
+
   height: 35px;
   width: 130px;
   font-size: 18px;
@@ -215,49 +217,48 @@ form button {
     visibility: hidden;
   }
 
-    .btn {
-        height: 30px;
-        width: 130px;
-        font-size: 16px;
-        margin-top: 12px;
-    }
+  .btn {
+    height: 30px;
+    width: 130px;
+    font-size: 16px;
+    margin-top: 12px;
+  }
 
-    form button {
-       padding: 0 41%;
-       align-items: center
-    }
+  form button {
+    padding: 0 41%;
+    align-items: center
+ }
 
-    .login {
-        font-family: $sub-font;
-        font-size: 18px;
-        font-weight: bold;
-        color: white;
-        margin-top: 23px;
-        margin-right: -20px;
-        visibility: visible;
-    }
+  .login {
+    font-family: $sub-font;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-top: 23px;
+    margin-right: -20px;
+    visibility: visible;
+  }
 
    
-    .footer-logo {
-      margin-top: 0;
-    }
+  .footer-logo {
+    margin-top: 0;
+  }
     
-    .footer-text {
-      display: inline-block;
-      margin-top: 60px;
-      margin-bottom: 0;
-      margin-left: 10px;
-      font-size: 13px;
-     
-    }
+  .footer-text {
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-size: 13px;
+  }
 
-    .footer-social {
-     margin-top: 60px;
-    }
+  .footer-social {
+    margin-top: 60px;
+  }
 
-    hr {
-      margin-top: 0;
-    }
+  hr {
+    margin-top: 0;
+  }
 }
 
 @media (min-width: 991.98px) {
@@ -271,7 +272,6 @@ form button {
     margin-bottom: 0;
     margin-left: 10px;
     font-size: 13px;
-   
   }
 
   .footer-social {
@@ -282,6 +282,3 @@ form button {
     margin-top: 0;
   }
 }
-
-
-
