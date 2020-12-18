@@ -82,6 +82,10 @@ $icon-color: rgba($color: #fff, $alpha: 0.75);
   color: $icon-color;
 }
 
+.fas {
+  visibility: visible;
+}
+
 .fa-bars {
   padding-top: 12px;
 }
@@ -238,12 +242,7 @@ form button {
         visibility: visible;
     }
 
-    /*.footer1 {
-      display: flex;
-      flex-direction: row;
-      
-    }
-*/
+   
     .footer-logo {
       margin-top: 0;
     }
