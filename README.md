@@ -3,7 +3,7 @@ This project is a clone of a the https://newsweek.com/
 # Getting started :
 this website can be viewd better on the screen size of of 1920 X 1080 in the firefox browser or chrome.
 you can also download the repo and open the ''index.html" file with Mozilla Firefox.
-![screenshot](img/Screenshot(32).png)
+![screenshot](img/newsweek.PNG)
 The purpose of these project is to help us understand a way of creating a web page similar to the "news week" website
 utilizing bootstrap, and all the concepts that we learned about HTML and CSS like
 flexbox, float and grid, and media quarys. So using bootstrap we may be able to build sites at a faster pace.
