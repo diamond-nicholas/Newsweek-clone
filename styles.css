@@ -1,11 +1,13 @@
-.foot2, .footerr {
+.foot2,
+.footerr {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #666;
   margin-left: 10px;
 }
 
-.btn2, .btn {
+.btn2,
+.btn {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: bolder;
   background-color: #ffe400;
@@ -90,6 +92,11 @@
 .container {
   margin-top: 150px;
   max-width: 100%;
+}
+
+.top-story {
+  position: sticky;
+  top: 0;
 }
 
 .home {
@@ -181,6 +188,7 @@ form button {
     margin-top: 50px;
   }
 }
+
 @media (min-width: 768px) and (max-width: 991.98px) {
   .fa-bars {
     font-size: 30px;
@@ -238,6 +246,7 @@ form button {
     margin-top: 0;
   }
 }
+
 @media (min-width: 991.98px) {
   .footer-logo {
     margin-top: 0;
