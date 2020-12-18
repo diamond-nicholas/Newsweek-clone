@@ -92,6 +92,13 @@ $icon-color: rgba($color: #fff, $alpha: 0.75);
 
 .container {
   margin-top: 150px;
+  max-width: 100%;
+}
+
+.home {
+  font-size: 20px;
+  font-family: $sub-font;
+  font-weight: bolder;
 }
 
 nav {
