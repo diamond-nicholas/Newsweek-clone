@@ -11,7 +11,7 @@ flexbox, float and grid, and media quarys. So using bootstrap we may be able to 
     -HTML
     -CSS
 ## LIVE DEMO
-[Live Demo Link](https://raw.githack.com/Paul-Clue/Newsweek-clone/homepage/index.html)
+[Live Demo Link](https://diamond-nicholas.github.io/Newsweek-clone/)
 ## AUTHORS
 👤 **Paul Clue**
 - GitHub: [@Paul-Clue](https://github.com/Paul-Clue/)
