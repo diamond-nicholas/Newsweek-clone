@@ -1,7 +1,6 @@
 $page-color-red: #f72210;
 $sub-font: "Roboto Condensed",sans-serif;
 $sub-weight: bolder;
-$radius: 24px;
 $icon-color: rgba($color: #fff, $alpha: 0.75);
 %footer-style {
   font-family: Arial, Helvetica, sans-serif;
@@ -9,6 +8,15 @@ $icon-color: rgba($color: #fff, $alpha: 0.75);
   color: #666666;
   margin-left: 10px;
 }
+%button{
+  font-family: $sub-font;
+  font-weight: $sub-weight;
+  background-color: #ffe400;
+  border-radius: 24px;
+  padding: 0 8px;
+  text-align: center;
+}
+
 
 .navigation {
   height: 150px;
@@ -55,19 +63,14 @@ $icon-color: rgba($color: #fff, $alpha: 0.75);
 .white-nav2 a {
   border-right: 1px solid gray;
   padding-right: 5px;
+  margin-right: 5px;
   color: black;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .white-nav2 .n-border {
   border: none;
-}
-
-.white-nav2 li {
-  margin-left: 5px;
-  display: inline;
-  text-decoration: none;
-  padding: 8px;
 }
 
 .nav-line {
@@ -80,7 +83,7 @@ $icon-color: rgba($color: #fff, $alpha: 0.75);
 }
 
 .fa-bars {
-  margin-top: 12px;
+  padding-top: 12px;
 }
 
 .login {
@@ -102,40 +105,23 @@ nav {
 }
 
 .btn {
-  font-family: $sub-font;
-  font-weight: $sub-weight;
-  background-color: #ffe400;
-  border-radius: $radius;
-  padding: 0 8px;
+  @extend %button;
   height: 25px;
   width: 110px;
   font-size: 15px;
   margin-top: 0;
-  text-align: center;
 }
 
 .btn2 {
-  font-family: $sub-font;
-  font-weight: $sub-weight;
-  background-color: #ffe400;
-  border-radius: $radius;
-  padding: 0 8px;
+  @extend %button;
   height: 35px;
   width: 130px;
   font-size: 18px;
   margin-top: 33px;
-  text-align: center;
+}  
 
 .card {
-    margin-bottom: 1rem;
-}
-
-.fas {
-  color: $icon-color;
-}
-
-.fa-bars {
-    padding-top: 12px;
+  margin-bottom: 1rem;
 }
 
 .bi-list {
@@ -190,11 +176,21 @@ form button {
   @extend %footer-style;
 }
 
+@media (max-width: 768px) {
+  .container {
+    margin-top: 50px;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 991.98px) {
   .fa-bars {
     font-size: 30px;
     margin-top: 7px;
     color: rgba($color: #fff, $alpha: 0.60);
+  }
+
+  .container {
+    margin-top: 50px;
   }
 
   .fa-user {
@@ -203,8 +199,8 @@ form button {
 
     .btn {
         height: 30px;
-        width: 170px;
-        font-size: 20px;
+        width: 130px;
+        font-size: 16px;
         margin-top: 12px;
     }
 
@@ -250,4 +246,29 @@ form button {
       margin-top: 0;
     }
 }
+
+@media (min-width: 991.98px) {
+  .footer-logo {
+    margin-top: 0;
+  }
+  
+  .footer-text {
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-size: 13px;
+   
+  }
+
+  .footer-social {
+   margin-top: 60px;
+  }
+
+  hr {
+    margin-top: 0;
+  }
 }
+
+
+
