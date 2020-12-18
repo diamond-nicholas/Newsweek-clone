@@ -99,10 +99,9 @@ $icon-color: rgba($color: #fff, $alpha: 0.75);
   max-width: 100%;
 }
 
-.scroll {
-  height: 2500px;
-  overflow-y: scroll;
-
+.top-story {
+  position: sticky;
+  top: 0;
 }
 
 .home {
