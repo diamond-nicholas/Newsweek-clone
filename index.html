@@ -1,0 +1,1341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>newsweek-clone</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxyE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <!-- navigation bar -->
+  
+    <div class=" navigation fixed-top d-none d-lg-block">
+      <div class=" row  row-nav">
+        <div class="col-md-4  ">
+          <p class="weather font-weight-bold text-white wt">
+            <i class="fas fa-cloud-sun"></i> 76 Miami, FL >
+          </p>
+          <p class="time text-white wt">
+            Thu, Dec 17, 2020
+          </p>
+          
+        </div>
+        <div class="col-md-5  ">
+         <p class="center"><a class="navbar-brand" href="#"><img src="./img/nav-logo.jpg" alt="logo" class="logo "></a></p>
+        
+        </div>
+        <ul class="col-md-3 nav " >
+            <li class="nv-li" >
+              <p class="">LOGIN</p>
+            </li>
+        
+          <li>
+            <!-- <a class="nav-link" href="#"> -->
+              <button type="button" class="btn2">SUBSCRIBE></button>
+            <!-- </a> -->
+          </li>
+        </ul>
+      </div>
+      <div class="row "> 
+        <div class="col-sm-12 white-nav">
+          <p class="white-nav2">
+            <a href="#">U.S.</a>
+            <a href="#">World</a>
+            <a href="#">Business</a>
+            <a href="#">Tech & Science</a>
+            <a href="#">Culture</a>
+            <a href="#">Newsgeek</a>
+            <a href="#"> Sports</a>
+            <a href="#"> Health</a>
+            <a href="#"> The Debate</a>
+            <a href="#">Vantage</a>
+            <a href="#" class="n-border">Weather </a>
+            <a href="#" class="n-border" >Search <i class="fa fa-search"></i></a>
+          </p>    
+          
+        </div>
+      </div>
+     </div>
+    
+     <hr class="nav-line d-none d-lg-block">
+    
+  <div class="container nav-container d-sm-block d-lg-none">
+    <nav class="navbar navbar-expand fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><img src="./img/logo.jpg" alt="logo"></a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+              <p class="login">LOGIN</p>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-user"></i></a>
+          </li>
+          <li class="nav-item">
+            <!-- <a class="nav-link" href="#"> -->
+              <button type="button" class="btn-sm btn">SUBSCRIBE>
+              </button>
+            <!-- </a> -->
+          </li>
+          <li>
+            <i class="fas fa-bars"></i>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
+
+  <div class="container">
+
+    
+    <div class="row">
+      <!-- top story -->
+      <div class="col-sm-12 col-md-7 order-md-2 col-lg-6 top-story">
+        <h3 class="text-muted">TOP STORY</h3>
+        <hr>
+        <div class="d-flex justify-content-center">
+          <figure class="figure w-100">
+            <img
+              src="https://d.newsweek.com/en/full/1686010/russias-putin-sitting-desk-flags.webp?w=591&amp;h=364&amp;f=6485dddec2e057b0c608ab539e0a63fc"
+              class="figure-img img-fluid rounded" alt="dummy">
+            <section class="card-body">
+              <p class="home-header">Republicans, Democrats React as Bill Barr Resigns: 'A Five-Alarm Fire'
+              </p>
+              <article class="figure-caption font-weight-bold">Senator Ted Cruz praised Barr as a "patriot" but other Republicans had criticism for
+              President
+              Trump.
+              </article>
+            </section>
+          </figure>
+        
+        </div>
+        <!-- MY-TURN -->
+        <h3 class="text-muted">MY TURN</h3>
+        <hr>
+        <div class="row">
+          <div class="col d-md-flex d-lg-flex">
+            <div class="d-flex justify-content-center ml-3">
+              <figure class="figure w-100">
+                <img
+                  src="https://d.newsweek.com/en/full/1686092/police-police-officer-adoption-father-daughter.jpg?w=397&h=397&f=d9266fc66bb3f6fc45ac38f942820e4f"
+                  class="figure-img img-fluid rounded shadow-lg" alt="world">
+                <article class="figure-caption text-center font-weight-bold">'I'm A Police Officer. I Adopted My Daughter After
+                  Helping Her On Duty'</article>
+              </figure>
+            </div>
+            <section class="d-flex justify-content-center ml-3">
+              <figure class="figure w-100">
+                <img
+                  src="https://d.newsweek.com/en/full/1687863/chick-fil-fast-food-pennyslvania.jpg?w=397&h=397&f=2affed011611e3c358b2f81324bf8474"
+                  class="figure-img img-fluid rounded shadow-lg" alt="world">
+                <article class="figure-caption text-center font-weight-bold">'I'm A Police Officer. I Adopted My Daughter After
+                  Helping Her On Duty'</article>
+              </figure>
+            </section>
+            <section class="d-flex justify-content-center ml-3">
+              <figure class="figure w-100">
+                <img
+                  src="https://d.newsweek.com/en/full/1686332/christmas-charity-homelessness-teenagers.png?w=397&h=397&f=dd6c3103d3cf04f4949bd56e2698acae"
+                  class="figure-img img-fluid rounded shadow-lg" alt="world">
+                <article class="figure-caption text-center font-weight-bold">'I'm A Police Officer. I Adopted My Daughter After
+                  Helping Her On Duty'</article>
+              </figure>
+            </section>
+  
+  
+          </div>
+        </div>
+        <!-- culture & travel -->
+        <h3 class="text-muted">CULTURE & TRAVEL</h3>
+        <hr>
+        <div class="row">
+          <div class="col d-md-flex d-lg-flex">
+            <section class="d-flex justify-content-center ml-3">
+              <figure class="figure w-100">
+                <img
+                  src="https://d.newsweek.com/en/full/1686971/nyc-snow-day.webp?w=397&h=397&f=67d34c97b5dcc1438a456a6c4df797b1"
+                  class="figure-img img-fluid rounded shadow-lg" alt="world">
+                <article class="figure-caption text-center font-weight-bold">'I'm A Police Officer. I Adopted My Daughter After
+                  Helping Her On Duty'</article>
+              </figure>
+            </section>
+           
+            <section class="d-flex justify-content-center ml-3">
+              <figure class="figure w-100">
+                <img
+                  src="https://d.newsweek.com/en/full/1687050/preparing-winter-30-steps.webp?w=397&h=397&f=995694858e5cdbca333252dfdff48643"
+                  class="figure-img img-fluid rounded shadow-lg text-muted" alt="world">
+                <article class="figure-caption text-center font-weight-bold">'I'm A Police Officer. I Adopted My Daughter After
+                  Helping Her On Duty'</article>
+              </figure>
+            </section>
+           
+            <section class="d-flex justify-content-center ml-3">
+              <figure class="figure w-100">
+                <img
+                  src="https://d.newsweek.com/en/full/1686092/police-police-officer-adoption-father-daughter.jpg?w=397&h=397&f=d9266fc66bb3f6fc45ac38f942820e4f"
+                  class="figure-img img-fluid rounded shadow-lg" alt="world">
+                <article class="figure-caption text-center font-weight-bold">'I'm A Police Officer. I Adopted My Daughter After
+                  Helping Her On Duty'</article>
+              </figure>
+            </section>
+           
+          </div>
+        </div>
+  
+        <!-- more stories -->
+        <h3 class="text-muted">MORE STORIES</h3>
+        <hr>
+        <div class="d-flex">
+          <div>
+            <img class="card-img-fluid mt-2 ml-3"
+              src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+              alt="reno">
+          </div>
+          <div>
+            <p class="home card-title ml-3 mt-2">Baby's Brain Swells After Catching COVID</p>
+            <div class="card-subtitle mb-2 text-muted ml-3 mt-2">Four-month-old Cullen was airlifted to hospital to be treated for what is known as a bulging fontanel.</div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div>
+            <img class="card-img-fluid mt-2 ml-3"
+              src="https://d.newsweek.com/en/full/1688432/sen-mitch-mcconnell-r-ky-holds-media-opportunity.webp?w=95&h=95&f=5e8240557e99f5ebb809d75609525abd"
+              alt="reno">
+          </div>
+          <div>
+            <p class="home card-title ml-3 mt-2">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3 mt-2">BY DUNCAN MORROW</div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div>
+            <img class="card-img-fluid mt-2 ml-3"
+              src="https://d.newsweek.com/en/full/1688432/sen-mitch-mcconnell-r-ky-holds-media-opportunity.webp?w=95&h=95&f=5e8240557e99f5ebb809d75609525abd"
+              alt="reno">
+          </div>
+          <div>
+            <p class="home card-title ml-3 mt-2">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3 mt-2">BY DUNCAN MORROW</div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div>
+            <img class="card-img-fluid mt-2 ml-3"
+              src="https://d.newsweek.com/en/full/1688432/sen-mitch-mcconnell-r-ky-holds-media-opportunity.webp?w=95&h=95&f=5e8240557e99f5ebb809d75609525abd"
+              alt="reno">
+          </div>
+          <div>
+            <p class="home card-title ml-3 mt-2">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3 mt-2">BY DUNCAN MORROW</div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div>
+            <img class="card-img-fluid mt-2 ml-3"
+              src="https://d.newsweek.com/en/full/1688432/sen-mitch-mcconnell-r-ky-holds-media-opportunity.webp?w=95&h=95&f=5e8240557e99f5ebb809d75609525abd"
+              alt="reno">
+          </div>
+          <div>
+            <p class="home card-title ml-3 mt-2">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3 mt-2">BY DUNCAN MORROW</div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div>
+            <img class="card-img-fluid mt-2 ml-3"
+              src="https://d.newsweek.com/en/full/1688432/sen-mitch-mcconnell-r-ky-holds-media-opportunity.webp?w=95&h=95&f=5e8240557e99f5ebb809d75609525abd"
+              alt="reno">
+          </div>
+          <div>
+            <p class="home card-title ml-3 mt-2">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3 mt-2">BY DUNCAN MORROW</div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div>
+            <img class="card-img-fluid mt-2 ml-3"
+              src="https://d.newsweek.com/en/full/1688432/sen-mitch-mcconnell-r-ky-holds-media-opportunity.webp?w=95&h=95&f=5e8240557e99f5ebb809d75609525abd"
+              alt="reno">
+          </div>
+          <div>
+            <p class="home card-title ml-3 mt-2">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3 mt-2">BY DUNCAN MORROW</div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div>
+            <img class="card-img-fluid mt-2 ml-3"
+              src="https://d.newsweek.com/en/full/1688432/sen-mitch-mcconnell-r-ky-holds-media-opportunity.webp?w=95&h=95&f=5e8240557e99f5ebb809d75609525abd"
+              alt="reno">
+          </div>
+          <div>
+            <p class="home card-title ml-3 mt-2">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3 mt-2">BY DUNCAN MORROW</div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div>
+            <img class="card-img-fluid mt-2 ml-3"
+              src="https://d.newsweek.com/en/full/1688432/sen-mitch-mcconnell-r-ky-holds-media-opportunity.webp?w=95&h=95&f=5e8240557e99f5ebb809d75609525abd"
+              alt="reno">
+          </div>
+          <div>
+            <p class="home card-title ml-3 mt-2">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3 mt-2">BY DUNCAN MORROW</div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div>
+            <img class="card-img-fluid mt-2 ml-3"
+              src="https://d.newsweek.com/en/full/1688432/sen-mitch-mcconnell-r-ky-holds-media-opportunity.webp?w=95&h=95&f=5e8240557e99f5ebb809d75609525abd"
+              alt="reno">
+          </div>
+          <div>
+            <p class="home card-title ml-3 mt-2">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3 mt-2">BY DUNCAN MORROW</div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div>
+            <img class="card-img-fluid mt-2 ml-3"
+              src="https://d.newsweek.com/en/full/1688432/sen-mitch-mcconnell-r-ky-holds-media-opportunity.webp?w=95&h=95&f=5e8240557e99f5ebb809d75609525abd"
+              alt="reno">
+          </div>
+          <div>
+            <p class="home card-title ml-3 mt-2">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3 mt-2">BY DUNCAN MORROW</div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div>
+            <img class="card-img-fluid mt-2 ml-3"
+              src="https://d.newsweek.com/en/full/1688432/sen-mitch-mcconnell-r-ky-holds-media-opportunity.webp?w=95&h=95&f=5e8240557e99f5ebb809d75609525abd"
+              alt="reno">
+          </div>
+          <div>
+            <p class="home card-title ml-3 mt-2">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3 mt-2">BY DUNCAN MORROW</div>
+          </div>
+        </div>
+        
+  
+        <!-- end of column -->
+      </div>
+      <!-- featured-stories -->
+      <div class="col-sm-12 col-md-5 order-md-1 col-lg-3">
+          <h3 class="text-muted">FEATURED STORIES</h3>
+          <hr>
+          <div class="d-flex justify-content-center">
+            <figure class="figure w-100">
+              <img
+                src="https://d.newsweek.com/en/full/1686131/president-donald-trump-gives-thumbs.webp?w=397&h=265&q=90&f=faaade9c449c4c2c11be985646236472"
+                class="figure-img img-fluid rounded" alt="dummy">
+              <section class="card-body">
+                <p class="home-header">Berlin Partners Power NNOVATE
+                </p>
+                <article class="figure-caption font-weight-bold">Berlin has long been a place where new technologies develop at a particularly rapid
+                pace. In the early years, the city
+                was a special breeding ground for blockchain technology with its subversive flair. Today, the technology
+                has become an
+                important economic factor with countless use-cases. See the latest in crypto + blockchain and business.</article>
+                </section>
+            </figure>
+          </div>
+          <div class="d-flex justify-content-center">
+            <figure class="figure w-100">
+              <img
+                src="https://d.newsweek.com/en/full/1686131/president-donald-trump-gives-thumbs.webp?w=397&h=265&q=90&f=faaade9c449c4c2c11be985646236472"
+                class="figure-img img-fluid rounded" alt="dummy">
+              <section class="card-body">
+                <p class="home">Berlin Partners Power NNOVATE
+                </p>
+                <article class="figure-caption font-weight-bold">Berlin has long been a place where new technologies develop at a particularly rapid
+                pace. In the early years, the city
+                was a special breeding ground for blockchain technology with its subversive flair. Today, the technology
+                has become an
+                important economic factor with countless use-cases. See the latest in crypto + blockchain and business.</article>
+              </section>
+            </figure>
+          </div>
+          <div class="d-flex justify-content-center">
+            <figure class="figure w-100">
+              <img
+                src="https://d.newsweek.com/en/full/1686131/president-donald-trump-gives-thumbs.webp?w=397&h=265&q=90&f=faaade9c449c4c2c11be985646236472"
+                class="figure-img img-fluid rounded" alt="dummy">
+              <section class="card-body">
+                <p class="home">Berlin Partners Power NNOVATE
+                </p>
+                <article class="figure-caption font-weight-bold">Berlin has long been a place where new technologies develop at a particularly rapid
+                pace. In the early years, the city
+                was a special breeding ground for blockchain technology with its subversive flair. Today, the technology
+                has become an
+                important economic factor with countless use-cases. See the latest in crypto + blockchain and business.</article>
+                </section>
+            </figure>
+          </div>
+      </div>
+      <!-- the debate -->
+      <div class="col-sm-12 hidden-md order-md-3 col-lg-3 debate">
+        <h3 class="text-muted">THE DEBATE</h3>
+        <hr>
+        <div class="border">
+          <div class="d-flex">
+            <div>
+              <img class="card-img-fluid ml-3 mt-2"
+                src="https://d.newsweek.com/en/full/1681620/rr-reno.png?w=63&h=63&f=1d30cc9b12c1ab70a547a48d6b21fcb5"
+                alt="reno">
+            </div>
+            <div>
+              <p class="home card-title ml-3 mt-2">Nationalism and Populism Are the GOP's Future</p>
+              <div class="card-subtitle mb-2 text-muted ml-3 mt-2">BY R.R. RENO</div>
+            </div>
+          </div>
+          <hr>
+          <div class="d-flex">
+            <div>
+              <p class="home card-title ml-3 mt-2">A Defense of Zombie Conservatism</p>
+              <div class="card-subtitle mb-2 ml-3 mt-2 text-muted">BY CHARLES C.W. COOKE</div>
+            </div>
+            <div>
+              <img class="card-img-fluid ml-3 mt-2"
+                src="https://d.newsweek.com/en/full/1681621/charles-cw-cooke.png?w=63&h=63&f=d351c79943ce6bcd75815493d9073b04"
+                alt="reno">
+            </div>
+          </div>
+        </div>
+        <!-- opinion -->
+  
+        <h3 class="text-muted">OPINION</h3>
+        <hr>
+        <div class="d-flex">
+          <div>
+            <img class="card-img-fluid mt-2 ml-3"
+              src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
+              alt="reno">
+          </div>
+          <div>
+            <p class="home card-title ml-3 mt-2">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3 mt-2">BY DUNCAN MORROW</div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div>
+            <img class="card-img-fluid ml-3 mt-2"
+              src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
+              alt="reno">
+          </div>
+          <div>
+            <p class="home card-title ml-3 mt-2">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3 mt-2">BY DUNCAN MORROW</div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div>
+            <img class="card-img-fluid ml-3 mt-2"
+              src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
+              alt="reno">
+          </div>
+          <div>
+            <p class="home card-title ml-3 mt-2">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3 mt-2">BY DUNCAN MORROW</div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div>
+            <img class="card-img-fluid ml-3 mt-2"
+              src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
+              alt="reno">
+          </div>
+          <div>
+            <p class="home card-title ml-3 mt-2">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3 mt-2">BY DUNCAN MORROW</div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div>
+            <img class="card-img-fluid ml-3 mt-2"
+              src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
+              alt="reno">
+          </div>
+          <div>
+            <p class="home card-title ml-3 mt-2">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3 mt-2">BY DUNCAN MORROW</div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div>
+            <img class="card-img-fluid ml-3 mt-2"
+              src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
+              alt="reno">
+          </div>
+          <div>
+            <p class="home card-title ml-3 mt-2">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3 mt-2">BY DUNCAN MORROW</div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div>
+            <img class="card-img-fluid ml-3 mt-2"
+              src="https://d.newsweek.com/en/full/1685823/duncan-morrow.webp?w=63&h=63&f=ff59db75bc0906fbf6048b9852f36d18"
+              alt="reno">
+          </div>
+          <div>
+            <p class="home card-title ml-3 mt-2">Brexit Has Northern Ireland's Very Future Hanging in the Balance</p>
+            <div class="card-subtitle mb-2 text-muted ml-3 mt-2">BY DUNCAN MORROW</div>
+          </div>
+          <!-- end of opinion -->
+        </div>
+        <!-- nnovate -->
+        <div class="border">
+        <div class="d-flex justify-content-center">
+          <figure class="figure w-100">
+            <img
+              src="https://d.newsweek.com/en/full/1686131/president-donald-trump-gives-thumbs.webp?w=397&h=265&q=90&f=faaade9c449c4c2c11be985646236472"
+              class="figure-img img-fluid rounded" alt="dummy">
+            <div class="card-body">
+              <p class="home">Why are these careers so highly sought after?
+              </p>
+              <article class="figure-caption font-weight-bold">These are some of the most highly rated careers areas today. How do you get started in them?
+              </article>
+            </div>
+            </figure>
+        </div>
+        </div>
+        <!-- input email -->
+          <div class="card-header">
+           <div class="email-header">
+             <img src="./img/N-LOGO.png" alt="little-logo">
+             <p>
+              START YOUR DAY WITH OUR TOP 5 ARTICLES
+             </p>
+            </div>
+            <form>
+              <div class="form-group">
+                <label for="email1"></label>
+                <input type="email" class="form-control" id="email1" placeholder="Enter Address">
+              </div>
+              <button type="submit" class="btn-danger">Free SignUp ></button>
+            </form>
+          </div>
+        <div class="border">
+          <div class="d-flex justify-content-center">
+            <figure class="figure w-100">
+              <img
+                src="https://d.newsweek.com/en/full/1686131/president-donald-trump-gives-thumbs.webp?w=397&h=265&q=90&f=faaade9c449c4c2c11be985646236472"
+                class="figure-img img-fluid rounded" alt="dummy">
+              <div class="card-body">
+                <p class="home">America's Best Nursing Homes 2021
+                </p>
+                <article class="figure-caption font-weight-bold">In partnership with Statista, we established a ranking providing information and insights to help you during this
+                challenging time.
+                </article>
+              </div>
+            </figure>
+          </div>
+        </div>
+       
+      
+      
+    </div>
+    </div>
+    <!-- end of complete row -->
+
+    <!-- in the magazine -->
+    <div class="email-header">
+      <img src="./img/N-LOGO.png" alt="little-logo">
+      <p>
+        IN THE MAGAZINE
+      </p>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-sm-6 col-md-3 col-lg-3">
+        <div class="d-flex justify-content-center">
+          <figure class="figure w-100">
+            <img src="https://d.newsweek.com/en/full/1683391/cover-december-18-2020.webp?w=290&h=387&q=90&f=015904a01dcde04ae7449a1d6fecbdde" class="figure-img img-fluid rounded shadow-lg" alt="sample">
+            <div class="card-header">
+              <div class="card-subtitle mb-2 text-muted">SEE ALL FEATURES ></div>
+            </div>
+          </figure>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 col-lg-3">
+        <div class="d-flex justify-content-center">
+          <figure class="figure w-100">
+            <img
+              src="https://d.newsweek.com/en/full/1685484/fe-quantum-banner.webp?w=466&h=311&l=76&t=68&q=90&f=4dd20afe7e3e8d38505d9981efc966b5"
+              class="figure-img img-fluid rounded" alt="dummy">
+              <div class="card-body">
+                <button type="submit" class="btn-danger">COVER</button> <span class="text-danger">TECH & SCIENCE</span>
+            <article class="figure-caption font-weight-bold">As China Leads Quantum Race, U.S. Spies Plan for a
+              World with Fewer Secrets</article>
+              </div>
+          </figure>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 col-lg-3">
+        <div class="d-flex justify-content-center">
+          <figure class="figure w-100">
+            <img
+              src="https://d.newsweek.com/en/full/1686989/fe-get-whats-yours-banner.webp?w=466&h=311&l=43&t=39&q=90&f=3e2f2b8a3b8e0766e1b330aefeca1c5f"
+              class="figure-img img-fluid rounded" alt="dummy">
+              <div class="card-body">
+                <button type="submit" class="btn-danger">FEATURES</button> <span class="text-danger">HEALTH</span>
+            <article class="figure-caption font-weight-bold">The $1 Trillion Health Care Problem That's Jacking Up Medical Bills</article>
+              </div>
+          </figure>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 col-lg-3">
+        <div class="d-flex justify-content-center">
+          <figure class="figure w-100">
+            <img
+              src="https://d.newsweek.com/en/full/1686400/per-linkedin-shark.webp?w=466&h=311&l=50&t=30&q=90&f=347922b1fb9feba0c3d83801815b3a41"
+              class="figure-img img-fluid rounded" alt="dummy">
+              <div class="card-body">
+                <button type="submit" class="btn-danger">PERISCOPE</button> <span class="text-danger">BUSINESS</span>
+            <article class="figure-caption font-weight-bold">Shark Tank's Robert Herjavec on How Small Business Owners Can Survive COVID</article>
+              </div>
+          </figure>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 col-lg-3">
+        <div class="d-flex justify-content-center">
+          <figure class="figure w-100">
+            <img
+              src="https://d.newsweek.com/en/full/1683995/books-banner.webp?w=466&h=311&q=90&f=5c5f63eb3242f62a95394847422d8c33"
+              class="figure-img img-fluid rounded" alt="dummy">
+              <div class="card-body">
+                <button type="submit" class="btn-danger">DOWNTIME</button> <span class="text-danger">CULTURE</span>
+            <article class="figure-caption font-weight-bold">30 Thoughtful Book Choices for Everyone on Your Holiday List</article>
+              </div>
+          </figure>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 col-lg-3">
+        <div class="d-flex justify-content-center">
+          <figure class="figure w-100">
+            <img
+              src="https://d.newsweek.com/en/full/1685484/fe-quantum-banner.webp?w=466&h=311&l=76&t=68&q=90&f=4dd20afe7e3e8d38505d9981efc966b5"
+              class="figure-img img-fluid rounded" alt="dummy">
+              <div class="card-body">
+                <button type="submit" class="btn-danger">DOWNTIME</button> <span class="text-danger">CULTURE</span>
+            <article class="figure-caption font-weight-bold">Wacky Ways the Holidays Are Celebrated Around the World</article>
+              </div>
+          </figure>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 col-lg-3">
+        <div class="d-flex justify-content-center">
+          <figure class="figure w-100">
+            <img
+              src="https://d.newsweek.com/en/full/1686394/cul-ps-dixie-damelio.webp?w=466&h=311&l=52&t=27&q=90&f=5d3a0d4574f6e7e3d307a18ed03068cd"
+              class="figure-img img-fluid rounded" alt="dummy">
+              <div class="card-body">
+                <button type="submit" class="btn-danger">DOWNTIME</button> <span class="text-danger">CULTURE</span>
+            <article class="figure-caption font-weight-bold">Dixie D'Amelio on Her New Music and How TikTok 'Changed My Career'</article>
+              </div>
+          </figure>
+        </div>
+      </div>
+    
+    </div>
+    <!-- editors pick -->
+    <div class="email-header">
+      <img src="./img/N-LOGO.png" alt="little-logo">
+      <p>
+        EDITORS PICK
+      </p>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-sm-6 col-md-3 col-lg-3">
+        <div class="d-flex justify-content-center">
+          <figure class="figure w-100">
+            <img
+              src="https://d.newsweek.com/en/full/1687950/president-elect-joe-biden.webp?w=397&h=265&f=81f8382163c7cb654d57158d1c3df94b"
+              class="figure-img img-fluid rounded" alt="dummy">
+            <div class="card-body">
+              <p class="home">What Vladimir Putin Said about Working with Joe Biden<p>
+              <article class="figure-caption font-weight-bold">The Russian president hopes for a breakthrough with the U.S. president-elect over the new START arms reduction treaty
+              which expires in February.</article>
+            </div>
+          </figure>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 col-lg-3">
+        <div class="d-flex justify-content-center">
+          <figure class="figure w-100">
+            <img
+              src="https://d.newsweek.com/en/full/1688010/keys-apartment-door.webp?w=397&h=265&f=2970a54d139f3c75598dd83f567a75e2"
+              class="figure-img img-fluid rounded" alt="dummy">
+            <div class="card-body">
+              <p class="home">$600 Stimulus Checks Would Not Cover a Family's Average Rent in Any State<p>
+              <article class="figure-caption font-weight-bold">Lawmakers are reportedly closing in on a package that would include $600 stimulus payments to most Americans, but it is
+              much less than what most people want, according to recent polling.</article>
+              </div>
+          </figure>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 col-lg-3">
+        <div class="d-flex justify-content-center">
+          <figure class="figure w-100">
+            <img
+              src="https://d.newsweek.com/en/full/1687838/jon-ossoff-speaks-event.webp?w=397&h=265&f=3d77db90c6c4c9b8f562404ecfa9bdb8"
+              class="figure-img img-fluid rounded" alt="dummy">
+            <div class="card-body">
+              <p class="home">Democrats Flood Facebook With Georgia Senate Runoff Ads After Ban Lifted<p>
+              <article class="figure-caption font-weight-bold">Jon Ossoff was quick off the mark with his social media campaigning, running more than 50 ads on Facebook within hours
+              of the restrictions being eased.</article>
+              </div>
+          </figure>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 col-lg-3">
+        <div class="d-flex justify-content-center">
+          <figure class="figure w-100">
+            <img
+              src="https://d.newsweek.com/en/full/1686394/cul-ps-dixie-damelio.webp?w=397&h=265&l=52&t=27&f=d5d7baea14cfe9fcc0050af3ced4c6ac"
+              class="figure-img img-fluid rounded" alt="dummy">
+            <div class="card-body">
+              <p class="home">Dixie D'Amelio on Her New Music and How TikTok 'Changed My Career'<p>
+              <article class="figure-caption font-weight-bold">"I graduated high school, released my first single, signed to a label, launched a podcast with my sister [Charli
+              D'Amelio] and launched my YouTube channel." Dixie D'Amelio has had quite a year.</article>
+              </div>
+          </figure>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 col-lg-3">
+        <div class="d-flex justify-content-center">
+          <figure class="figure w-100">
+            <img
+              src="https://d.newsweek.com/en/full/1687766/ucla-doctor-receives-covid-19-vaccine-december-2020.webp?w=397&h=265&f=7c5c047540c3fae9b1bf2cdb2243363d"
+              class="figure-img img-fluid rounded" alt="dummy">
+            <div class="card-body">
+              <p class="home">How Effective Is the COVID Vaccine?<p>
+              <article class="figure-caption font-weight-bold">The U.S. Centers for Disease Control and Prevention is working with other federal agencies to assess COVID-19 vaccine
+              effectiveness in real-life settings.</article>
+              </div>
+          </figure>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 col-lg-3">
+        <div class="d-flex justify-content-center">
+          <figure class="figure w-100">
+            <img
+              src="https://d.newsweek.com/en/full/1686743/hunter-biden-faces-corruption-probe-involving-china.webp?w=397&h=265&f=63ebec25787652818c16e74aba15ae6d"
+              class="figure-img img-fluid rounded" alt="dummy">
+            <div class="card-body">
+              <p class="home">Hunter Biden Corruption Probe Could Humiliate China Too<p>
+              <article class="figure-caption font-weight-bold">The federal investigation has been cited as potential leverage for Beijing, but any proof of corruption linked to
+              Chinese individuals or companies could be embarrassing too.</article>
+              </div>
+          </figure>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 col-lg-3">
+        <div class="d-flex justify-content-center">
+          <figure class="figure w-100">
+            <img
+              src="https://d.newsweek.com/en/full/1686878/hunter.webp?w=397&h=265&f=457da6958e0fb09c78483bbfe4182ecf"
+              class="figure-img img-fluid rounded" alt="dummy">
+            <div class="card-body">
+              <p class="home">Majority of Americans Think Hunter Biden Story Was Ignored by Media: Poll<p>
+              <article class="figure-caption font-weight-bold">President-elect's son confirmed he in under federal investigation last week after it first reported prior to Election
+              Day.</article>
+              </div>
+          </figure>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3 col-lg-3">
+        <div class="d-flex justify-content-center">
+          <figure class="figure w-100">
+            <img
+              src="https://d.newsweek.com/en/full/1686893/edward-snowden.webp?w=397&h=265&f=574962b0dfc84aba617237cd2123ac2e"
+              class="figure-img img-fluid rounded" alt="dummy">
+            <div class="card-body">
+              <p class="home">Will Donald Trump Pardon Edward Snowden? 'Anything Is Possible'<p>
+              <article class="figure-caption font-weight-bold">Legal experts weight in on the "complicated" possibility that the president could pardon the whistleblower before he
+              exits the White House in January 2021.</article>
+              </div>
+          </figure>
+        </div>
+      </div>
+      <!-- featured stories section -->
+      <h3 class="text-muted ml-3 text-danger">U.S</h3>
+      <hr>
+      <div class="row">
+        <div class="col-sm-6 col-md-3 col-lg-3">
+          <div class="d-flex justify-content-center">
+            <figure class="figure w-100">
+              <img
+                src="https://d.newsweek.com/en/full/1687950/president-elect-joe-biden.webp?w=397&h=265&f=81f8382163c7cb654d57158d1c3df94b"
+                class="figure-img img-fluid rounded" alt="dummy">
+              <div class="card-body">
+                <p class="home">What Vladimir Putin Said about Working with Joe Biden
+                <p>
+                <article class="figure-caption font-weight-bold">The Russian president hopes for a breakthrough with the U.S.
+                  </article>
+              </div>
+            </figure>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">
+          <div class="d-flex justify-content-center">
+            <figure class="figure w-100">
+              <img
+                src="https://d.newsweek.com/en/full/1687950/president-elect-joe-biden.webp?w=397&h=265&f=81f8382163c7cb654d57158d1c3df94b"
+                class="figure-img img-fluid rounded" alt="dummy">
+              <div class="card-body">
+                <p class="home">What Vladimir Putin Said about Working with Joe Biden
+                <p>
+                <article class="figure-caption font-weight-bold">The Russian president hopes for a breakthrough with the U.S.
+              </article>
+              </div>
+            </figure>
+          </div>
+        </div>
+        <!-- need to make this section 3 -->
+        <div class="col-sm-6 col-md-3 col-lg-3">
+          <div class="d-flex">
+            <div>
+              <img class="card-img-fluid mt-2 ml-3"
+                src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+                alt="reno">
+            </div>
+            <div>
+              <p class="home card-title ml-3 mt-2">Baby's Brain Swells After Catching COVID</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div>
+              <img class="card-img-fluid mt-2 ml-3"
+                src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+                alt="reno">
+            </div>
+            <div>
+              <p class="home card-title ml-3 mt-2">Baby's Brain Swells After Catching COVID</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div>
+              <img class="card-img-fluid mt-2 ml-3"
+                src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+                alt="reno">
+            </div>
+            <div>
+              <p class="home card-title ml-3 mt-2">Baby's Brain Swells After Catching COVID</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- end of the main -->
+      <h3 class="text-muted ml-3 text-danger">U.S</h3>
+      <hr>
+      <div class="row">
+        <div class="col-sm-6 col-md-3 col-lg-3">
+          <div class="d-flex justify-content-center">
+            <figure class="figure w-100">
+              <img
+                src="https://d.newsweek.com/en/full/1687950/president-elect-joe-biden.webp?w=397&h=265&f=81f8382163c7cb654d57158d1c3df94b"
+                class="figure-img img-fluid rounded" alt="dummy">
+              <div class="card-body">
+                <p class="home">What Vladimir Putin Said about Working with Joe Biden
+                <p>
+                <article class="figure-caption font-weight-bold">The Russian president hopes for a breakthrough with the U.S.
+                  </article>
+              </div>
+            </figure>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">
+          <div class="d-flex justify-content-center">
+            <figure class="figure w-100">
+              <img
+                src="https://d.newsweek.com/en/full/1687950/president-elect-joe-biden.webp?w=397&h=265&f=81f8382163c7cb654d57158d1c3df94b"
+                class="figure-img img-fluid rounded" alt="dummy">
+              <div class="card-body">
+                <p class="home">What Vladimir Putin Said about Working with Joe Biden
+                <p>
+                <article class="figure-caption font-weight-bold">The Russian president hopes for a breakthrough with the U.S.
+              </article>
+              </div>
+            </figure>
+          </div>
+        </div>
+        <!-- need to make this section 3 -->
+        <div class="col-sm-6 col-md-3 col-lg-3">
+          <div class="d-flex">
+            <div>
+              <img class="card-img-fluid mt-2 ml-3"
+                src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+                alt="reno">
+            </div>
+            <div>
+              <p class="home card-title ml-3 mt-2">Baby's Brain Swells After Catching COVID</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div>
+              <img class="card-img-fluid mt-2 ml-3"
+                src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+                alt="reno">
+            </div>
+            <div>
+              <p class="home card-title ml-3 mt-2">Baby's Brain Swells After Catching COVID</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div>
+              <img class="card-img-fluid mt-2 ml-3"
+                src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+                alt="reno">
+            </div>
+            <div>
+              <p class="home card-title ml-3 mt-2">Baby's Brain Swells After Catching COVID</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- end of the main -->
+      <h3 class="text-muted ml-3 text-danger">U.S</h3>
+      <hr>
+      <div class="row">
+        <div class="col-sm-6 col-md-3 col-lg-3">
+          <div class="d-flex justify-content-center">
+            <figure class="figure w-100">
+              <img
+                src="https://d.newsweek.com/en/full/1687950/president-elect-joe-biden.webp?w=397&h=265&f=81f8382163c7cb654d57158d1c3df94b"
+                class="figure-img img-fluid rounded" alt="dummy">
+              <div class="card-body">
+                <p class="home">What Vladimir Putin Said about Working with Joe Biden
+                <p>
+                <article class="figure-caption font-weight-bold">The Russian president hopes for a breakthrough with the U.S.
+                  </article>
+              </div>
+            </figure>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">
+          <div class="d-flex justify-content-center">
+            <figure class="figure w-100">
+              <img
+                src="https://d.newsweek.com/en/full/1687950/president-elect-joe-biden.webp?w=397&h=265&f=81f8382163c7cb654d57158d1c3df94b"
+                class="figure-img img-fluid rounded" alt="dummy">
+              <div class="card-body">
+                <p class="home">What Vladimir Putin Said about Working with Joe Biden
+                <p>
+                <article class="figure-caption font-weight-bold">The Russian president hopes for a breakthrough with the U.S.
+              </article>
+              </div>
+            </figure>
+          </div>
+        </div>
+        <!-- need to make this section 3 -->
+        <div class="col-sm-6 col-md-3 col-lg-3">
+          <div class="d-flex">
+            <div>
+              <img class="card-img-fluid mt-2 ml-3"
+                src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+                alt="reno">
+            </div>
+            <div>
+              <p class="home card-title ml-3 mt-2">Baby's Brain Swells After Catching COVID</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div>
+              <img class="card-img-fluid mt-2 ml-3"
+                src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+                alt="reno">
+            </div>
+            <div>
+              <p class="home card-title ml-3 mt-2">Baby's Brain Swells After Catching COVID</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div>
+              <img class="card-img-fluid mt-2 ml-3"
+                src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+                alt="reno">
+            </div>
+            <div>
+              <p class="home card-title ml-3 mt-2">Baby's Brain Swells After Catching COVID</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- end of the main -->
+      <h3 class="text-muted ml-3 text-danger">U.S</h3>
+      <hr>
+      <div class="row">
+        <div class="col-sm-6 col-md-3 col-lg-3">
+          <div class="d-flex justify-content-center">
+            <figure class="figure w-100">
+              <img
+                src="https://d.newsweek.com/en/full/1687950/president-elect-joe-biden.webp?w=397&h=265&f=81f8382163c7cb654d57158d1c3df94b"
+                class="figure-img img-fluid rounded" alt="dummy">
+              <div class="card-body">
+                <p class="home">What Vladimir Putin Said about Working with Joe Biden
+                <p>
+                <article class="figure-caption font-weight-bold">The Russian president hopes for a breakthrough with the U.S.
+                  </article>
+              </div>
+            </figure>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">
+          <div class="d-flex justify-content-center">
+            <figure class="figure w-100">
+              <img
+                src="https://d.newsweek.com/en/full/1687950/president-elect-joe-biden.webp?w=397&h=265&f=81f8382163c7cb654d57158d1c3df94b"
+                class="figure-img img-fluid rounded" alt="dummy">
+              <div class="card-body">
+                <p class="home">What Vladimir Putin Said about Working with Joe Biden
+                <p>
+                <article class="figure-caption font-weight-bold">The Russian president hopes for a breakthrough with the U.S.
+              </article>
+              </div>
+            </figure>
+          </div>
+        </div>
+        <!-- need to make this section 3 -->
+        <div class="col-sm-6 col-md-3 col-lg-3">
+          <div class="d-flex">
+            <div>
+              <img class="card-img-fluid mt-2 ml-3"
+                src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+                alt="reno">
+            </div>
+            <div>
+              <p class="home card-title ml-3 mt-2">Baby's Brain Swells After Catching COVID</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div>
+              <img class="card-img-fluid mt-2 ml-3"
+                src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+                alt="reno">
+            </div>
+            <div>
+              <p class="home card-title ml-3 mt-2">Baby's Brain Swells After Catching COVID</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div>
+              <img class="card-img-fluid mt-2 ml-3"
+                src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+                alt="reno">
+            </div>
+            <div>
+              <p class="home card-title ml-3 mt-2">Baby's Brain Swells After Catching COVID</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- end of the main -->
+      <h3 class="text-muted ml-3 text-danger">U.S</h3>
+      <hr>
+      <div class="row">
+        <div class="col-sm-6 col-md-3 col-lg-3">
+          <div class="d-flex justify-content-center">
+            <figure class="figure w-100">
+              <img
+                src="https://d.newsweek.com/en/full/1687950/president-elect-joe-biden.webp?w=397&h=265&f=81f8382163c7cb654d57158d1c3df94b"
+                class="figure-img img-fluid rounded" alt="dummy">
+              <div class="card-body">
+                <p class="home">What Vladimir Putin Said about Working with Joe Biden
+                <p>
+                <article class="figure-caption font-weight-bold">The Russian president hopes for a breakthrough with the U.S.
+                  </article>
+              </div>
+            </figure>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">
+          <div class="d-flex justify-content-center">
+            <figure class="figure w-100">
+              <img
+                src="https://d.newsweek.com/en/full/1687950/president-elect-joe-biden.webp?w=397&h=265&f=81f8382163c7cb654d57158d1c3df94b"
+                class="figure-img img-fluid rounded" alt="dummy">
+              <div class="card-body">
+                <p class="home">What Vladimir Putin Said about Working with Joe Biden
+                <p>
+                <article class="figure-caption font-weight-bold">The Russian president hopes for a breakthrough with the U.S.
+              </article>
+              </div>
+            </figure>
+          </div>
+        </div>
+        <!-- need to make this section 3 -->
+        <div class="col-sm-6 col-md-3 col-lg-3">
+          <div class="d-flex">
+            <div>
+              <img class="card-img-fluid mt-2 ml-3"
+                src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+                alt="reno">
+            </div>
+            <div>
+              <p class="home card-title ml-3 mt-2">Baby's Brain Swells After Catching COVID</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div>
+              <img class="card-img-fluid mt-2 ml-3"
+                src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+                alt="reno">
+            </div>
+            <div>
+              <p class="home card-title ml-3 mt-2">Baby's Brain Swells After Catching COVID</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div>
+              <img class="card-img-fluid mt-2 ml-3"
+                src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+                alt="reno">
+            </div>
+            <div>
+              <p class="home card-title ml-3 mt-2">Baby's Brain Swells After Catching COVID</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- end of the main -->
+      <h3 class="text-muted ml-3 text-danger">U.S</h3>
+      <hr>
+      <div class="row">
+        <div class="col-sm-6 col-md-3 col-lg-3">
+          <div class="d-flex justify-content-center">
+            <figure class="figure w-100">
+              <img
+                src="https://d.newsweek.com/en/full/1687950/president-elect-joe-biden.webp?w=397&h=265&f=81f8382163c7cb654d57158d1c3df94b"
+                class="figure-img img-fluid rounded" alt="dummy">
+              <div class="card-body">
+                <p class="home">What Vladimir Putin Said about Working with Joe Biden
+                <p>
+                <article class="figure-caption font-weight-bold">The Russian president hopes for a breakthrough with the U.S.
+                  </article>
+              </div>
+            </figure>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">
+          <div class="d-flex justify-content-center">
+            <figure class="figure w-100">
+              <img
+                src="https://d.newsweek.com/en/full/1687950/president-elect-joe-biden.webp?w=397&h=265&f=81f8382163c7cb654d57158d1c3df94b"
+                class="figure-img img-fluid rounded" alt="dummy">
+              <div class="card-body">
+                <p class="home">What Vladimir Putin Said about Working with Joe Biden
+                <p>
+                <article class="figure-caption font-weight-bold">The Russian president hopes for a breakthrough with the U.S.
+              </article>
+              </div>
+            </figure>
+          </div>
+        </div>
+        <!-- need to make this section 3 -->
+        <div class="col-sm-6 col-md-3 col-lg-3">
+          <div class="d-flex">
+            <div>
+              <img class="card-img-fluid mt-2 ml-3"
+                src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+                alt="reno">
+            </div>
+            <div>
+              <p class="home card-title ml-3 mt-2">Baby's Brain Swells After Catching COVID</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div>
+              <img class="card-img-fluid mt-2 ml-3"
+                src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+                alt="reno">
+            </div>
+            <div>
+              <p class="home card-title ml-3 mt-2">Baby's Brain Swells After Catching COVID</p>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div>
+              <img class="card-img-fluid mt-2 ml-3"
+                src="https://d.newsweek.com/en/full/1686028/enrique-tarrio.webp?w=95&h=95&f=02e39823ffad80ee37e8f1574af2f30d"
+                alt="reno">
+            </div>
+            <div>
+              <p class="home card-title ml-3 mt-2">Baby's Brain Swells After Catching COVID</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- end of the main -->
+  
+        
+    
+      
+  
+    <!-- suscribe and newsletter -->
+    <section class="row contact justify-content-between shadow-sm">
+      <article class="col-12 col-md-12 col-lg-6 subscribe">
+        <p class="text-danger ml-3 mt-1">SUBSCRIBE</p>
+        <div class="card-header">
+        <div class="d-flex row subscribe-content mx-auto">
+          <div class="col-12 col-5 col-md-5 col-lg-5 subscribe-image">
+            <img
+              src="https://d.newsweek.com/en/full/1683391/cover-december-18-2020.jpg?w=170&q=95&f=e1f2c45a14354ef38b88aed621a70ef7"
+              alt="brain power">
+          </div>
+          <div class="col-12 col-7 col-md-7 col-lg-7 subscribe-text text-center">
+            <h4>
+              In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
+            </h4>
+            <p>All Access + Weekly Delivery.<br>Choose A Membership That's Perfect for You!</p>
+            <button  type="submit" class="btn-subscribe btn-danger">SUBSCRIBE <span>></span></button>
+          </div>
+          </div>
+        </div>
+      </article>
+           <!-- newsletter -->
+      <article class="col-12 col-md-12 col-lg-5 newsletter">
+        <p class="text-danger ml-3 mt-1">NEWSLETTER</p>
+        <div class="border">
+        <div class="d-flex row newsletter-content mx-auto">
+          <div class="col-12 col-md-5 col-lg-5">
+            <img
+              src="https://d.newsweek.com/en/full/1683391/cover-december-18-2020.jpg?w=170&q=95&f=e1f2c45a14354ef38b88aed621a70ef7"
+              alt="">
+          </div>
+          <div class="col-12 col-md-5 col-lg-5 letter-text text-center ml-4">
+            <h4>The Starting 5</h4>
+            <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+            <form class="letter-form row mt-4 mx-auto">
+              <input class="mb-2 col-6 col-md-6 col-lg-12" type="email" name="email" id="email" placeholder="Email address">
+              <button class="col-6 col-md-6 col-lg-12 border-0 btn-danger" type="submit">FREE SIGN UP ></button>
+            </form>
+          </div>
+        </div>
+        </div>
+      </article>
+    </section>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+ 
+
+          
+
+
+
+
+
+  <!-- footer -->
+  <div class="d-none d-md-block container-fluid">
+    <div class=" row1">
+      <div class="row footer">
+        <div class=" footer1 col-8">
+          <div></div>
+        <a href="#"><img src="./img/footer-logo.jpg" alt="footer-logo">
+        </a>
+        <p class="footer-text">&#169; 2020 NEWSWEEK DIGITAL LLC</p>
+        </div>
+        <div class="col-4">
+        <p class="footer-social float-right">
+          <a href="#"><img src="./img/social1.jpg" alt="social-icon"></a>
+          <a href="#"><img src="./img/social2.jpg" alt="social-icon"></a>
+          <a href="#"><img src="./img/social3.jpg" alt="social-icon"></a>
+          <a href="#"><img src="./img/social4.jpg" alt="social-icon"></a>
+          <a href="#"><img src="./img/social5.jpg" alt="social-icon"></a>
+        </p>
+        </div>
+        </div>
+        <hr>
+        <div class="foot2">
+
+          <p><b>EDITIONS:</b>&nbsp;U.S. Edition &nbsp;&nbsp; <img src="./img/chinese.jpg" alt="chinese"> &nbsp;&nbsp;
+            Pakistan &nbsp;&nbsp;
+            Polska &nbsp;&nbsp; Romainia</p>
+          <p>About Us &nbsp;&nbsp; Corrections &nbsp;&nbsp; Contact Us &nbsp;&nbsp; Editorial Guidlines</p>
+          <P>Advertise &nbsp;&nbsp; Copyright &nbsp;&nbsp; Terms &amp; Conditions &nbsp;&nbsp; Privacy Policy</P>
+          <p>Cookie Policys &nbsp;&nbsp; Terms of Saless &nbsp;&nbsp; Archives &nbsp;&nbsp; Announcements</p>
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="  d-md-none container-fluid">
+    <div class=" row1">
+      <div class="footer">
+        <div class=" footer1 ">
+          <div class=""></div>
+        <a href="#"><img src="./img/footer-logo.jpg" alt="footer-logo" ></a>
+        <p class="footer-text">&#169; 2020 NEWSWEEK DIGITAL LLC</p>
+        </div>
+        <div>
+        <p class="footer-social">
+          <a href="#"><img src="./img/social1.jpg" alt="social-icon"></a>
+          <a href="#"><img src="./img/social2.jpg" alt="social-icon"></a>
+          <a href="#"><img src="./img/social3.jpg" alt="social-icon"></a>
+          <a href="#"><img src="./img/social4.jpg" alt="social-icon"></a>
+          <a href="#"><img src="./img/social5.jpg" alt="social-icon"></a>
+        </p>
+        </div>
+        </div>
+        <hr>
+        <div class="foot2">
+
+          <p><b>EDITIONS:</b>&nbsp;U.S. Edition &nbsp;&nbsp; <img src="./img/chinese.jpg" alt="chinese"> &nbsp;&nbsp;
+            Pakistan &nbsp;&nbsp;
+            Polska &nbsp;&nbsp; Romainia</p>
+          <p>About Us &nbsp;&nbsp; Corrections &nbsp;&nbsp; Contact Us &nbsp;&nbsp; Editorial Guidlines</p>
+          <P>Advertise &nbsp;&nbsp; Copyright &nbsp;&nbsp; Terms &amp; Conditions &nbsp;&nbsp; Privacy Policy</P>
+          <p>Cookie Policys &nbsp;&nbsp; Terms of Saless &nbsp;&nbsp; Archives &nbsp;&nbsp; Announcements</p>
+        </div>
+      
+    </div>
+  </div>
+    
+       
+        
+     
+    
+  
+        
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

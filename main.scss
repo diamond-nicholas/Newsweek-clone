@@ -1,0 +1,283 @@
+$page-color-red: #f72210;
+$sub-font: "Roboto Condensed",sans-serif;
+$sub-weight: bolder;
+$icon-color: rgba($color: #fff, $alpha: 0.75);
+%footer-style {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #666;
+  margin-left: 10px;
+}
+%button {
+  font-family: $sub-font;
+  font-weight: $sub-weight;
+  background-color: #ffe400;
+  border-radius: 24px;
+  padding: 0 8px;
+  text-align: center;
+}
+
+.navigation {
+  height: 150px;
+  background-color: #f72210;
+}
+
+.logo {
+  margin-top: 5px;
+}
+
+.nv-li {
+  font-weight: bold;
+  font-size: 18px;
+  color: whitesmoke;
+  font-family: $sub-font;
+  margin-left: 5%;
+  margin-top: 52px;
+}
+
+.wt {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.time {
+  margin-top: 0;
+}
+
+.weather {
+  margin-bottom: 0;
+}
+
+.white-nav {
+  background-color: white;
+  height: 50px;
+}
+
+.white-nav2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.white-nav2 a {
+  border-right: 1px solid gray;
+  padding-right: 5px;
+  margin-right: 5px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.white-nav2 .n-border {
+  border: none;
+}
+
+.nav-line {
+  position: relative;
+  top: 140px;
+}
+
+.fas {
+  color: $icon-color;
+  visibility: visible;
+}
+
+.fa-bars {
+  padding-top: 12px;
+}
+
+.login {
+  visibility: hidden;
+}
+
+.container {
+  margin-top: 150px;
+  max-width: 100%;
+}
+
+.top-story {
+  position: sticky;
+  top: 0;
+}
+
+.home {
+  font-size: 15px;
+  font-family: $sub-font;
+  font-weight: bolder;
+}
+
+.home-header {
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: $sub-font;
+}
+
+nav {
+  background-color: $page-color-red;
+  height: 50px;
+}
+
+.nav2 {
+  height: 150px;
+  background-color: #f72210;
+}
+
+.btn {
+  @extend %button;
+
+  height: 25px;
+  width: 110px;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.btn2 {
+  @extend %button;
+
+  height: 35px;
+  width: 130px;
+  font-size: 18px;
+  margin-top: 33px;
+}
+
+.card {
+  margin-bottom: 1rem;
+}
+
+.bi-list {
+  position: relative;
+  top: 15px;
+}
+
+.email-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.email-header img {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.email-header p {
+  font-weight: bold;
+}
+
+form button {
+  padding: 0 37%;
+  align-items: center;
+}
+
+.turn-img {
+  width: 100px;
+  height: 100px;
+}
+
+.footerr {
+  @extend %footer-style;
+}
+
+.foot2 p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.footer-social {
+  margin-top: -12px;
+  margin-bottom: -8px;
+}
+
+.row1 {
+  margin-bottom: -400px;
+}
+
+.foot2 {
+  @extend %footer-style;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .fa-bars {
+    font-size: 30px;
+    margin-top: 7px;
+    color: rgba($color: #fff, $alpha: 0.6);
+  }
+
+  .container {
+    margin-top: 50px;
+  }
+
+  .fa-user {
+    visibility: hidden;
+  }
+
+  .btn {
+    height: 30px;
+    width: 130px;
+    font-size: 16px;
+    margin-top: 12px;
+  }
+
+  form button {
+    padding: 0 41%;
+    align-items: center;
+  }
+
+  .login {
+    font-family: $sub-font;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-top: 23px;
+    margin-right: -20px;
+    visibility: visible;
+  }
+
+  .footer-logo {
+    margin-top: 0;
+  }
+
+  .footer-text {
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-size: 13px;
+  }
+
+  .footer-social {
+    margin-top: 60px;
+  }
+
+  hr {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 991.98px) {
+  .footer-logo {
+    margin-top: 0;
+  }
+
+  .footer-text {
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-size: 13px;
+  }
+
+  .footer-social {
+    margin-top: 60px;
+  }
+
+  hr {
+    margin-top: 0;
+  }
+}
